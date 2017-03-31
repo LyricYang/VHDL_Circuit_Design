@@ -1,0 +1,1 @@
+--debug "typical" --relax -L "work" -L "secureip" --snapshot "dff_simulation_behav" --prj "C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Chapter_2/pro2_1_dff/pro2_1_dff.sim/sim_1/behav/dff_simulation.prj" "work.dff_simulation" 

@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2013.3
+# SW Build 329390 on Wed Oct 16 18:35:21 MDT 2013
+# IP Build 192953 on Wed Oct 16 08:44:02 MDT 2013
+# Start of session at: Fri Mar 31 18:51:34 2017
+# Process ID: 8456
+# Log file: C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Chapter_2/pro2_2_dff_nand/pro2_2_dff_nand.runs/synth_1/dff_nand.rds
+# Journal file: C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Chapter_2/pro2_2_dff_nand/pro2_2_dff_nand.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source dff_nand.tcl

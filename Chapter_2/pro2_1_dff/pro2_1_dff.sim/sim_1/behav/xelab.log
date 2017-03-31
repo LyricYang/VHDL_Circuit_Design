@@ -1,0 +1,19 @@
+Vivado Simulator 2013.3
+Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2013.3/bin/unwrapped/win32.o/xelab.exe --debug typical --relax -L work -L secureip --snapshot dff_simulation_behav --prj C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Chapter_2/pro2_1_dff/pro2_1_dff.sim/sim_1/behav/dff_simulation.prj work.dff_simulation 
+Multi-threading is on. Using 2 slave threads.
+Determining compilation order of HDL files.
+INFO: [VRFC 10-165] Analyzing Verilog file "D:/vivado/Vivado/2013.3/data/verilog/src/glbl.v" into library work
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Chapter_2/pro2_1_dff/pro2_1_dff.srcs/sources_1/new/dff.vhd" into library work
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Chapter_2/pro2_1_dff/pro2_1_dff.srcs/sim_1/new/dff_simulation.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity work.dff [dff_default]
+Compiling architecture behavioral of entity work.dff_simulation
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot dff_simulation_behav

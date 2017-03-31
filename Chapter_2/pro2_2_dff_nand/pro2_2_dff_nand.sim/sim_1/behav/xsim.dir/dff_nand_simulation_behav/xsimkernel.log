@@ -1,0 +1,7 @@
+Running: xsim.dir/dff_nand_simulation_behav/xsimk.exe -simmode gui -wdb dff_nand_simulation_behav.wdb -simrunnum 0 -socket 49395
+Design successfully loaded
+Design Loading Memory Usage: 370116 KB (Peak: 370144 KB)
+Design Loading CPU Usage: 108 ms
+Simulation completed
+Simulation Memory Usage: 370116 KB (Peak: 779716 KB)
+Simulation CPU Usage: 108 ms
