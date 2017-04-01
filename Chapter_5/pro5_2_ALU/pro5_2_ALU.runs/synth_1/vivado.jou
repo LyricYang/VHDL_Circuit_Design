@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2013.3
+# SW Build 329390 on Wed Oct 16 18:35:21 MDT 2013
+# IP Build 192953 on Wed Oct 16 08:44:02 MDT 2013
+# Start of session at: Sat Apr 01 17:21:30 2017
+# Process ID: 10732
+# Log file: C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Chapter_5/pro5_2_ALU/pro5_2_ALU.runs/synth_1/ALU.rds
+# Journal file: C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Chapter_5/pro5_2_ALU/pro5_2_ALU.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source ALU.tcl

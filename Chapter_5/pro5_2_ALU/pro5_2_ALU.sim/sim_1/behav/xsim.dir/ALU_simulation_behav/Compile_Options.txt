@@ -1,0 +1,1 @@
+--debug "typical" --relax -L "work" -L "secureip" --snapshot "ALU_simulation_behav" --prj "C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Chapter_5/pro5_2_ALU/pro5_2_ALU.sim/sim_1/behav/ALU_simulation.prj" "work.ALU_simulation" 

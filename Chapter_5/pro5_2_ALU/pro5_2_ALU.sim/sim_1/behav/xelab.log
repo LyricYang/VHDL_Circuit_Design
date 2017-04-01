@@ -1,0 +1,21 @@
+Vivado Simulator 2013.3
+Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2013.3/bin/unwrapped/win32.o/xelab.exe --debug typical --relax -L work -L secureip --snapshot ALU_simulation_behav --prj C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Chapter_5/pro5_2_ALU/pro5_2_ALU.sim/sim_1/behav/ALU_simulation.prj work.ALU_simulation 
+Multi-threading is on. Using 2 slave threads.
+Determining compilation order of HDL files.
+INFO: [VRFC 10-165] Analyzing Verilog file "D:/vivado/Vivado/2013.3/data/verilog/src/glbl.v" into library work
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Chapter_5/pro5_2_ALU/pro5_2_ALU.srcs/sources_1/new/ALU.vhd" into library work
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Chapter_5/pro5_2_ALU/pro5_2_ALU.srcs/sim_1/new/ALU_simulation.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity work.ALU [alu_default]
+Compiling architecture behavioral of entity work.alu_simulation
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot ALU_simulation_behav
