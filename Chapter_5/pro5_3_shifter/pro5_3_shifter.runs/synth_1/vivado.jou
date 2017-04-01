@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2013.3
+# SW Build 329390 on Wed Oct 16 18:35:21 MDT 2013
+# IP Build 192953 on Wed Oct 16 08:44:02 MDT 2013
+# Start of session at: Sat Apr 01 19:10:26 2017
+# Process ID: 13536
+# Log file: C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Chapter_5/pro5_3_shifter/pro5_3_shifter.runs/synth_1/shifter.rds
+# Journal file: C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Chapter_5/pro5_3_shifter/pro5_3_shifter.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source shifter.tcl

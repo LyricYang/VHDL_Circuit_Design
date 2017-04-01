@@ -1,0 +1,1 @@
+--debug "typical" --relax -L "work" -L "secureip" --snapshot "shifter_simulation_behav" --prj "C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Chapter_5/pro5_3_shifter/pro5_3_shifter.sim/sim_1/behav/shifter_simulation.prj" "work.shifter_simulation" 
