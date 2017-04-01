@@ -1,0 +1,1 @@
+--debug "typical" --relax -L "work" -L "secureip" --snapshot "parity_de_simulation_behav" --prj "C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Chapter_4/pro4_2_parity_det/pro4_2_parity_det.sim/sim_1/behav/parity_de_simulation.prj" "work.parity_de_simulation" 

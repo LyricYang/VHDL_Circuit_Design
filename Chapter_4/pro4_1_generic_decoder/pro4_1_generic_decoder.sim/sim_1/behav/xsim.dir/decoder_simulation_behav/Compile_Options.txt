@@ -1,0 +1,1 @@
+--debug "typical" --relax -L "work" -L "secureip" --snapshot "decoder_simulation_behav" --prj "C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Chapter_4/pro4_1_generic_decoder/pro4_1_generic_decoder.sim/sim_1/behav/decoder_simulation.prj" "work.decoder_simulation" 
