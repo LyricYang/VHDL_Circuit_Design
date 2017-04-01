@@ -1,0 +1,1 @@
+--debug "typical" --relax -L "work" -L "secureip" --snapshot "adder2_simulation_behav" --prj "C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Chapter_3/pro1_adder1/pro1_adder1.sim/sim_1/behav/adder2_simulation.prj" "work.adder2_simulation" 
