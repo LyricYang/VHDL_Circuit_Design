@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="synth_1" LaunchDir="C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Chapter_6/pro6_2_conter/pro6_2_conter.runs/synth_1" FlowId="Vivado Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+

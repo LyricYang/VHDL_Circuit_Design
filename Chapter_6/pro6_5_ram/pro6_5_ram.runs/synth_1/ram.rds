@@ -1,0 +1,245 @@
+#-----------------------------------------------------------
+# Vivado v2013.3
+# SW Build 329390 on Wed Oct 16 18:35:21 MDT 2013
+# IP Build 192953 on Wed Oct 16 08:44:02 MDT 2013
+# Start of session at: Mon Apr 03 21:48:37 2017
+# Process ID: 8916
+# Log file: C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Chapter_6/pro6_5_ram/pro6_5_ram.runs/synth_1/ram.rds
+# Journal file: C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Chapter_6/pro6_5_ram/pro6_5_ram.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: Implementation
+INFO: [Common 17-81] Feature available: Implementation
+INFO: [Device 21-36] Loading parts and site information from D:/vivado/Vivado/2013.3/data/parts/arch.xml
+Parsing RTL primitives file [D:/vivado/Vivado/2013.3/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [D:/vivado/Vivado/2013.3/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+source ram.tcl
+# set_param gui.test TreeTableDev
+# set_msg_config -id {HDL 9-1061} -limit 100000
+# set_msg_config -id {HDL 9-1654} -limit 100000
+# create_project -in_memory -part xc7vx690tffg1157-3
+# set_property target_language Verilog [current_project]
+# set_param project.compositeFile.enableAutoGeneration 0
+# read_vhdl C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Chapter_6/pro6_5_ram/pro6_5_ram.srcs/sources_1/new/ram.vhd
+# set_param synth.vivado.isSynthRun true
+# set_property webtalk.parent_dir C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Chapter_6/pro6_5_ram/pro6_5_ram.data/wt [current_project]
+# set_property parent.project_dir C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Chapter_6/pro6_5_ram [current_project]
+# synth_design -top ram -part xc7vx690tffg1157-3
+Command: synth_design -top ram -part xc7vx690tffg1157-3
+
+Starting synthesis...
+
+INFO: [Common 17-347] Attempting to get a license for feature 'Synthesis' and/or device 'xc7vx690t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7vx690t'
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 328.117 ; gain = 74.992
+INFO: [Synth 8-638] synthesizing module 'ram' [C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Chapter_6/pro6_5_ram/pro6_5_ram.srcs/sources_1/new/ram.vhd:44]
+	Parameter bits bound to: 8 - type: integer 
+	Parameter words bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'ram' (1#1) [C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Chapter_6/pro6_5_ram/pro6_5_ram.srcs/sources_1/new/ram.vhd:44]
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 351.145 ; gain = 98.020
+Start RTL Optimization : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 351.145 ; gain = 98.020
+---------------------------------------------------------------------------------
+Finished RTL Optimization : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 351.145 ; gain = 98.020
+---------------------------------------------------------------------------------
+
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7vx690tffg1157-3
+Loading clock regions from D:/vivado/Vivado/2013.3/data\parts/xilinx/virtex7/virtex7/xc7vx690t/ClockRegion.xml
+Loading clock buffers from D:/vivado/Vivado/2013.3/data\parts/xilinx/virtex7/virtex7/xc7vx690t/ClockBuffers.xml
+Loading clock placement rules from D:/vivado/Vivado/2013.3/data/parts/xilinx/virtex7/ClockPlacerRules.xml
+Loading package pin functions from D:/vivado/Vivado/2013.3/data\parts/xilinx/virtex7/PinFunctions.xml...
+Loading package from D:/vivado/Vivado/2013.3/data\parts/xilinx/virtex7/virtex7/xc7vx690t/ffg1157/Package.xml
+Loading io standards from D:/vivado/Vivado/2013.3/data\./parts/xilinx/virtex7/IOStandards.xml
+Loading device configuration modes from D:/vivado/Vivado/2013.3/data\parts/xilinx/virtex7/ConfigModes.xml
+Part Resources:
+DSPs: 3600 (col length:200)
+BRAMs: 2940 (col length: RAMB8 0 RAMB16 0 RAMB18 200 RAMB36 100)
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:34 ; elapsed = 00:00:34 . Memory (MB): peak = 620.480 ; gain = 367.355
+---------------------------------------------------------------------------------
+
+No constraint files found.
+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module ram 
+Detailed RTL Component Info : 
+
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:34 ; elapsed = 00:00:34 . Memory (MB): peak = 620.480 ; gain = 367.355
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: 
++------------+------------+--------------------+----------------------+----------------+-------------------+
+|Module Name | RTL Object | Inference Criteria | Size (depth X width) | Primitives     | Hierarchical Name | 
++------------+------------+--------------------+----------------------+----------------+-------------------+
+|ram         | memory_reg | Implied            | 16 X 8               | RAM16X1S x 8   | ram/ram__4        | 
++------------+------------+--------------------+----------------------+----------------+-------------------+
+
+Note: Mutiple instantiated RAMs are reported only once. "Hierarchical Name" reflects the hierarchical modules names of the RAM and only part of it is displayed.
+---------------------------------------------------------------------------------
+Finished RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:34 ; elapsed = 00:00:34 . Memory (MB): peak = 632.992 ; gain = 379.867
+---------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:34 ; elapsed = 00:00:34 . Memory (MB): peak = 632.992 ; gain = 379.867
+---------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 633.000 ; gain = 379.875
+---------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 633.000 ; gain = 379.875
+---------------------------------------------------------------------------------
+
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 633.000 ; gain = 379.875
+---------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 633.000 ; gain = 379.875
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BUFG     |     1|
+|2     |RAM16X1S |     8|
+|3     |IBUF     |    14|
+|4     |OBUF     |     8|
++------+---------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |    31|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 633.000 ; gain = 379.875
+---------------------------------------------------------------------------------
+
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Complete : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 633.000 ; gain = 379.875
+INFO: [Netlist 29-17] Analyzing 22 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s).
+INFO: [Common 17-78] Attempting to get a license: Internal_bitstream
+WARNING: [Common 17-301] Failed to get a license: Internal_bitstream
+INFO: [Memdata 28-143] Successfully populated the BRAM INIT strings from the following elf files: 
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 8 instances were transformed.
+  RAM16X1S => RAM16X1S (RAMS32, GND): 8 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+13 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:54 ; elapsed = 00:00:56 . Memory (MB): peak = 958.504 ; gain = 661.609
+# write_checkpoint ram.dcp
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+# report_utilization -file ram_utilization_synth.rpt -pb ram_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.148 . Memory (MB): peak = 959.508 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 03 21:49:35 2017...
