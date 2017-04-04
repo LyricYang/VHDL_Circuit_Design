@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2013.3
+# SW Build 329390 on Wed Oct 16 18:35:21 MDT 2013
+# IP Build 192953 on Wed Oct 16 08:44:02 MDT 2013
+# Start of session at: Tue Apr 04 21:22:23 2017
+# Process ID: 13836
+# Log file: C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Chapter_10/pro10_1_component_in_package/pro10_1_component_in_package.runs/synth_1/project.rds
+# Journal file: C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Chapter_10/pro10_1_component_in_package/pro10_1_component_in_package.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source project.tcl
