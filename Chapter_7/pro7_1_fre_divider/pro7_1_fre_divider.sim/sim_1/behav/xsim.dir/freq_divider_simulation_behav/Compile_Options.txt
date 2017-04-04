@@ -1,0 +1,1 @@
+--debug "typical" --relax -L "work" -L "secureip" --snapshot "freq_divider_simulation_behav" --prj "C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Chapter_7/pro7_1_fre_divider/pro7_1_fre_divider.sim/sim_1/behav/freq_divider_simulation.prj" "work.freq_divider_simulation" 
