@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2013.3
+# SW Build 329390 on Wed Oct 16 18:35:21 MDT 2013
+# IP Build 192953 on Wed Oct 16 08:44:02 MDT 2013
+# Start of session at: Tue Apr 04 20:40:39 2017
+# Process ID: 11992
+# Log file: C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Chapter_9/pro9_5/pro9_5.runs/synth_1/serial_converter.rds
+# Journal file: C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Chapter_9/pro9_5/pro9_5.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source serial_converter.tcl

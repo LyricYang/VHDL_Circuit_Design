@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2013.3
+# SW Build 329390 on Wed Oct 16 18:35:21 MDT 2013
+# IP Build 192953 on Wed Oct 16 08:44:02 MDT 2013
+# Start of session at: Tue Apr 04 20:16:35 2017
+# Process ID: 10324
+# Log file: C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Chapter_9/pro9_3_divider/pro9_3_divider.runs/synth_1/divider.rds
+# Journal file: C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Chapter_9/pro9_3_divider/pro9_3_divider.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source divider.tcl
