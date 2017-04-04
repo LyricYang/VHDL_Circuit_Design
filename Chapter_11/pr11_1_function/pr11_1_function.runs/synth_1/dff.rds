@@ -1,0 +1,67 @@
+#-----------------------------------------------------------
+# Vivado v2013.3
+# SW Build 329390 on Wed Oct 16 18:35:21 MDT 2013
+# IP Build 192953 on Wed Oct 16 08:44:02 MDT 2013
+# Start of session at: Tue Apr 04 21:56:21 2017
+# Process ID: 13600
+# Log file: C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Chapter_11/pr11_1_function/pr11_1_function.runs/synth_1/dff.rds
+# Journal file: C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Chapter_11/pr11_1_function/pr11_1_function.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: Implementation
+INFO: [Common 17-81] Feature available: Implementation
+INFO: [Device 21-36] Loading parts and site information from D:/vivado/Vivado/2013.3/data/parts/arch.xml
+Parsing RTL primitives file [D:/vivado/Vivado/2013.3/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [D:/vivado/Vivado/2013.3/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+source dff.tcl
+# set_param gui.test TreeTableDev
+# set_msg_config -id {HDL 9-1061} -limit 100000
+# set_msg_config -id {HDL 9-1654} -limit 100000
+# create_project -in_memory -part xc7vx690tffg1157-3
+# set_property target_language Verilog [current_project]
+# set_param project.compositeFile.enableAutoGeneration 0
+# read_vhdl {
+#   C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Chapter_11/pr11_1_function/pr11_1_function.srcs/sources_1/new/my_package.vhd
+#   C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Chapter_11/pr11_1_function/pr11_1_function.srcs/sources_1/new/dff.vhd
+# }
+# set_param synth.vivado.isSynthRun true
+# set_property webtalk.parent_dir C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Chapter_11/pr11_1_function/pr11_1_function.data/wt [current_project]
+# set_property parent.project_dir C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Chapter_11/pr11_1_function [current_project]
+# synth_design -top dff -part xc7vx690tffg1157-3
+Command: synth_design -top dff -part xc7vx690tffg1157-3
+
+Starting synthesis...
+
+INFO: [Common 17-347] Attempting to get a license for feature 'Synthesis' and/or device 'xc7vx690t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7vx690t'
+Starting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 327.578 ; gain = 75.016
+INFO: [Synth 8-638] synthesizing module 'dff' [C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Chapter_11/pr11_1_function/pr11_1_function.srcs/sources_1/new/dff.vhd:42]
+ERROR: [Synth 8-26] attribute 'event not implemented [C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Chapter_11/pr11_1_function/pr11_1_function.srcs/sources_1/new/my_package.vhd:41]
+ERROR: [Synth 8-285] failed synthesizing module 'dff' [C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Chapter_11/pr11_1_function/pr11_1_function.srcs/sources_1/new/dff.vhd:42]
+Finished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 350.719 ; gain = 98.156
+synthesize failed
+    while executing
+"rt::run_synthesis -module $rt::top"
+    invoked from within
+"if {$rt::useElabCache == false} {
+      rt::run_synthesis -module $rt::top
+    }"
+    ("uplevel" body line 34)
+    invoked from within
+"uplevel #0 {
+    set ::env(BUILTIN_SYNTH) true
+    source $::env(HRT_TCL_PATH)/rtSynthPrep.tcl
+    set rt::cmdEcho 0
+    rt::set_parameter writeXmsg t..."
+ERROR: [Common 17-39] 'source' failed due to earlier errors.
+INFO: [Common 17-83] Releasing license: Synthesis
+4 Infos, 0 Warnings, 0 Critical Warnings and 2 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Vivado Synthesis failed
+ERROR: [Common 17-39] 'source' failed due to earlier errors.
+
+    while executing
+"source -notrace {./.Xil/Vivado-13600-/realtime\dff.tcl}"
+    invoked from within
+"synth_design -top dff -part xc7vx690tffg1157-3"
+    (file "dff.tcl" line 18)
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 04 21:56:27 2017...

@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2013.3
+# SW Build 329390 on Wed Oct 16 18:35:21 MDT 2013
+# IP Build 192953 on Wed Oct 16 08:44:02 MDT 2013
+# Start of session at: Tue Apr 04 21:56:21 2017
+# Process ID: 13600
+# Log file: C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Chapter_11/pr11_1_function/pr11_1_function.runs/synth_1/dff.rds
+# Journal file: C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Chapter_11/pr11_1_function/pr11_1_function.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source dff.tcl
