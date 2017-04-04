@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2013.3
+# SW Build 329390 on Wed Oct 16 18:35:21 MDT 2013
+# IP Build 192953 on Wed Oct 16 08:44:02 MDT 2013
+# Start of session at: Tue Apr 04 17:13:13 2017
+# Process ID: 11772
+# Log file: C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Chapter_8/pro8_2_signal_gen/pro8_2_signal_gen.runs/synth_1/signal_gen.rds
+# Journal file: C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Chapter_8/pro8_2_signal_gen/pro8_2_signal_gen.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source signal_gen.tcl
