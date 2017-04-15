@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2013.3
+# SW Build 329390 on Wed Oct 16 18:35:21 MDT 2013
+# IP Build 192953 on Wed Oct 16 08:44:02 MDT 2013
+# Start of session at: Fri Apr 14 20:57:25 2017
+# Process ID: 17232
+# Log file: C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Example/Digit_FIR/Digit_FIR.runs/synth_1/FIR.rds
+# Journal file: C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Example/Digit_FIR/Digit_FIR.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source FIR.tcl

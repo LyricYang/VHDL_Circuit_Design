@@ -1,0 +1,7 @@
+Running: xsim.dir/FIR_simulation_behav/xsimk.exe -simmode gui -wdb FIR_simulation_behav.wdb -simrunnum 0 -socket 51026
+Design successfully loaded
+Design Loading Memory Usage: 370128 KB (Peak: 370168 KB)
+Design Loading CPU Usage: 62 ms
+Simulation completed
+Simulation Memory Usage: 370128 KB (Peak: 779728 KB)
+Simulation CPU Usage: 62 ms
