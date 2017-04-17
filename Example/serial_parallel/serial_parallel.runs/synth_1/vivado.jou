@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2013.3
+# SW Build 329390 on Wed Oct 16 18:35:21 MDT 2013
+# IP Build 192953 on Wed Oct 16 08:44:02 MDT 2013
+# Start of session at: Sun Apr 16 20:31:55 2017
+# Process ID: 10632
+# Log file: C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Example/serial_parallel/serial_parallel.runs/synth_1/serial_parallel.rds
+# Journal file: C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Example/serial_parallel/serial_parallel.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source serial_parallel.tcl

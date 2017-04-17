@@ -1,0 +1,1 @@
+--debug "typical" --relax -L "work" -L "secureip" --snapshot "FIR_simulation_behav" --prj "C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Example/Parallel_FIR/Parallel_FIR.sim/sim_1/behav/FIR_simulation.prj" "work.FIR_simulation" 

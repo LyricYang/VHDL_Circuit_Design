@@ -1,0 +1,4 @@
+vhdl work "C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Example/Parallel_FIR/Parallel_FIR.srcs/sources_1/new/my_data_types.vhd"
+vhdl work "C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Example/Parallel_FIR/Parallel_FIR.srcs/sources_1/imports/new/FIR.vhd"
+vhdl work "C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Example/Parallel_FIR/Parallel_FIR.srcs/sim_1/imports/new/FIR_simulation.vhd"
+verilog work "D:/vivado/Vivado/2013.3/data/verilog/src/glbl.v"
