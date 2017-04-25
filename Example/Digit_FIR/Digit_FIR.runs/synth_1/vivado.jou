@@ -1,10 +1,12 @@
 #-----------------------------------------------------------
-# Vivado v2013.3
-# SW Build 329390 on Wed Oct 16 18:35:21 MDT 2013
-# IP Build 192953 on Wed Oct 16 08:44:02 MDT 2013
-# Start of session at: Fri Apr 14 20:57:25 2017
-# Process ID: 17232
-# Log file: C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Example/Digit_FIR/Digit_FIR.runs/synth_1/FIR.rds
-# Journal file: C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Example/Digit_FIR/Digit_FIR.runs/synth_1\vivado.jou
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Tue Apr 25 12:58:28 2017
+# Process ID: 1808
+# Current directory: C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Digit_FIR/Digit_FIR.runs/synth_1
+# Command line: vivado.exe -log FIR.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source FIR.tcl
+# Log file: C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Digit_FIR/Digit_FIR.runs/synth_1/FIR.vds
+# Journal file: C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Digit_FIR/Digit_FIR.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
-source FIR.tcl
+source FIR.tcl -notrace

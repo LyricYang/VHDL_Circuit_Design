@@ -1,10 +1,12 @@
 #-----------------------------------------------------------
-# Vivado v2013.3
-# SW Build 329390 on Wed Oct 16 18:35:21 MDT 2013
-# IP Build 192953 on Wed Oct 16 08:44:02 MDT 2013
-# Start of session at: Sat Apr 15 10:36:35 2017
-# Process ID: 19900
-# Log file: C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Example/Neural_Net/Neural_Net.runs/synth_1/NeuralNet.rds
-# Journal file: C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Example/Neural_Net/Neural_Net.runs/synth_1\vivado.jou
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Tue Apr 25 12:46:50 2017
+# Process ID: 1988
+# Current directory: C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Neural_Net/Neural_Net.runs/synth_1
+# Command line: vivado.exe -log NeuralNet.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source NeuralNet.tcl
+# Log file: C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Neural_Net/Neural_Net.runs/synth_1/NeuralNet.vds
+# Journal file: C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Neural_Net/Neural_Net.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
-source NeuralNet.tcl
+source NeuralNet.tcl -notrace

@@ -1,9 +1,9 @@
 #!/bin/sh
 
 #
-#  PlanAhead(TM)
-#  ISEWrap.sh: ExploreAhead Script for UNIX
-#  Copyright 1986-1999, 2001-2010 Xilinx, Inc. All Rights Reserved. 
+#  Vivado(TM)
+#  ISEWrap.sh: Vivado Runs Script for UNIX
+#  Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved. 
 #
 
 HD_LOG=$1
@@ -60,3 +60,4 @@ else
 fi
 
 exit $RETVAL
+
