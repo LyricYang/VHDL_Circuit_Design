@@ -2,8 +2,8 @@
 # Vivado v2016.4 (64-bit)
 # SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
 # IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
-# Start of session at: Tue Apr 25 12:46:50 2017
-# Process ID: 1988
+# Start of session at: Tue Apr 25 13:42:33 2017
+# Process ID: 10160
 # Current directory: C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Neural_Net/Neural_Net.runs/synth_1
 # Command line: vivado.exe -log NeuralNet.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source NeuralNet.tcl
 # Log file: C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Neural_Net/Neural_Net.runs/synth_1/NeuralNet.vds
