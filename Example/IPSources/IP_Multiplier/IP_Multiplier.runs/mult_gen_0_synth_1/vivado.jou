@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Tue Apr 25 10:08:00 2017
+# Process ID: 4768
+# Current directory: C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/IPSources/IP_Multiplier/IP_Multiplier.runs/mult_gen_0_synth_1
+# Command line: vivado.exe -log mult_gen_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mult_gen_0.tcl
+# Log file: C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/IPSources/IP_Multiplier/IP_Multiplier.runs/mult_gen_0_synth_1/mult_gen_0.vds
+# Journal file: C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/IPSources/IP_Multiplier/IP_Multiplier.runs/mult_gen_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source mult_gen_0.tcl -notrace

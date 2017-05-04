@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Webtalk v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Tue Apr 25 12:37:19 2017
+# Process ID: 9272
+# Current directory: C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/IPSources/IP_Multiplier/IP_Multiplier.sim/sim_1/behav
+# Command line: wbtcv.exe -mode batch -source C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/IPSources/IP_Multiplier/IP_Multiplier.sim/sim_1/behav/xsim.dir/mutiplier_simulation_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/IPSources/IP_Multiplier/IP_Multiplier.sim/sim_1/behav/webtalk.log
+# Journal file: C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/IPSources/IP_Multiplier/IP_Multiplier.sim/sim_1/behav\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/IPSources/IP_Multiplier/IP_Multiplier.sim/sim_1/behav/xsim.dir/mutiplier_simulation_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/IPSources/IP_Multiplier/IP_Multiplier.sim/sim_1/behav/xsim.dir/mutiplier_simulation_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Tue Apr 25 12:37:26 2017. For additional details about this file, please refer to the WebTalk help file at E:/ProgramFiles/Vivado/Vivado/2016.4/doc/webtalk_introduction.html.
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 49.047 ; gain = 0.000
+INFO: [Common 17-206] Exiting Webtalk at Tue Apr 25 12:37:26 2017...

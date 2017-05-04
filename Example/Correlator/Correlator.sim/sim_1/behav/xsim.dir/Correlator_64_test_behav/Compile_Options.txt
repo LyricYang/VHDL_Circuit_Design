@@ -1,0 +1,1 @@
+--debug "typical" --relax -L "work" -L "secureip" --snapshot "Correlator_64_test_behav" --prj "D:/vivado_project/Correlator/Correlator.sim/sim_1/behav/Correlator_64_test.prj" "work.Correlator_64_test" 

@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2013.3
+# SW Build 329390 on Wed Oct 16 18:35:21 MDT 2013
+# IP Build 192953 on Wed Oct 16 08:44:02 MDT 2013
+# Start of session at: Wed Nov 30 15:23:30 2016
+# Process ID: 6396
+# Log file: D:/vivado_project/Correlator/Correlator.runs/synth_1/Correlator_64.rds
+# Journal file: D:/vivado_project/Correlator/Correlator.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Correlator_64.tcl

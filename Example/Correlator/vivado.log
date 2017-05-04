@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2013.3
+# SW Build 329390 on Wed Oct 16 18:35:21 MDT 2013
+# IP Build 192953 on Wed Oct 16 08:44:02 MDT 2013
+# Start of session at: Wed Apr 12 21:32:40 2017
+# Process ID: 6840
+# Log file: H:/新建文件夹/科研工作/程序/VHDL/Correlator/vivado.log
+# Journal file: H:/新建文件夹/科研工作/程序/VHDL/Correlator\vivado.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: Implementation
+INFO: [Common 17-81] Feature available: Implementation
+INFO: [Device 21-36] Loading parts and site information from D:/vivado/Vivado/2013.3/data/parts/arch.xml
+Parsing RTL primitives file [D:/vivado/Vivado/2013.3/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [D:/vivado/Vivado/2013.3/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+open_project {H:\新建文件夹\科研工作\程序\VHDL\Correlator\Correlator.xpr}
+INFO: [Project 1-313] Project file moved from 'D:/vivado_project/Correlator' since last save.
+Scanning sources...
+Finished scanning sources
+open_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 602.184 ; gain = 27.727
+update_compile_order -fileset sim_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Apr 12 21:35:31 2017...

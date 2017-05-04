@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Correlator_64_test_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Correlator_64_test" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="7" />
+   <wvobject fp_name="/Correlator_64_test/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Correlator_64_test/rk_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rk_in[11:0]</obj_property>
+      <obj_property name="ObjectShortName">rk_in[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Correlator_64_test/Cora_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Cora_out[11:0]</obj_property>
+      <obj_property name="ObjectShortName">Cora_out[11:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Correlator_64_test/Corb_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Corb_out[11:0]</obj_property>
+      <obj_property name="ObjectShortName">Corb_out[11:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Correlator_64_test/W" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">W[5:0]</obj_property>
+      <obj_property name="ObjectShortName">W[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Correlator_64_test/ce" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ce</obj_property>
+      <obj_property name="ObjectShortName">ce</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Correlator_64_test/clk_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,7 @@
+Running: xsim.dir/shirt_register_32_test_behav/xsimk.exe -simmode gui -wdb shirt_register_32_test_behav.wdb -simrunnum 0 -socket 59953
+Design successfully loaded
+Design Loading Memory Usage: 370156 KB (Peak: 370204 KB)
+Design Loading CPU Usage: 93 ms
+Simulation completed
+Simulation Memory Usage: 370156 KB (Peak: 779756 KB)
+Simulation CPU Usage: 93 ms

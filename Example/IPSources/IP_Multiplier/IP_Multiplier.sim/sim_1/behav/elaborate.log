@@ -1,0 +1,34 @@
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: E:/ProgramFiles/Vivado/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 31a3e2e94d8242d8bcfd34901c183754 --debug typical --relax --mt 2 -L xbip_utils_v3_0_7 -L xbip_pipe_v3_0_3 -L xbip_bram18k_v3_0_3 -L mult_gen_v12_0_12 -L xil_defaultlib -L secureip -L xpm --snapshot mutiplier_simulation_behav xil_defaultlib.mutiplier_simulation -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package mult_gen_v12_0_12.mult_gen_v12_0_12_viv_comp
+Compiling package xbip_utils_v3_0_7.xbip_utils_v3_0_7_pkg
+Compiling package mult_gen_v12_0_12.mult_gen_v12_0_12_pkg
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package unisim.vcomponents
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling architecture lut2_v of entity unisim.LUT2 [\LUT2(init="1000")(0,3)\]
+Compiling architecture mult_and_v of entity unisim.MULT_AND [mult_and_default]
+Compiling architecture muxcy_v of entity unisim.MUXCY [muxcy_default]
+Compiling architecture xorcy_v of entity unisim.XORCY [xorcy_default]
+Compiling architecture xilinx of entity mult_gen_v12_0_12.op_resize [\op_resize(ai_width=4,bi_width=4...]
+Compiling architecture xilinx of entity mult_gen_v12_0_12.luts [\luts(c_xdevicefamily="virtex7",...]
+Compiling architecture xilinx of entity mult_gen_v12_0_12.mult_gen_v12_0_12_viv [\mult_gen_v12_0_12_viv(c_verbosi...]
+Compiling architecture xilinx of entity mult_gen_v12_0_12.mult_gen_v12_0_12 [\mult_gen_v12_0_12(c_a_width=4,c...]
+Compiling architecture mult_gen_0_arch of entity xil_defaultlib.mult_gen_0 [mult_gen_0_default]
+Compiling architecture behavioral of entity xil_defaultlib.mutiplier_simulation
+Built simulation snapshot mutiplier_simulation_behav

@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Tue Apr 25 12:58:28 2017
+# Process ID: 1808
+# Current directory: C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Digit_FIR/Digit_FIR.runs/synth_1
+# Command line: vivado.exe -log FIR.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source FIR.tcl
+# Log file: C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Digit_FIR/Digit_FIR.runs/synth_1/FIR.vds
+# Journal file: C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Digit_FIR/Digit_FIR.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source FIR.tcl -notrace
+Command: synth_design -top FIR -part xc7vx690tffg1157-3
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7vx690t'
+WARNING: [Common 17-348] Failed to get the license for feature 'Synthesis' and/or device 'xc7vx690t'
+0 Infos, 1 Warnings, 0 Critical Warnings and 1 Errors encountered.
+synth_design failed
+ERROR: [Common 17-345] A valid license was not found for feature 'Synthesis' and/or device 'xc7vx690t'. Please run the Vivado License Manager for assistance in determining
+which features and devices are licensed for your system.
+Resolution: Check the status of your licenses in the Vivado License Manager. For debug help search Xilinx Support for "Licensing FAQ". 
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 25 12:58:34 2017...

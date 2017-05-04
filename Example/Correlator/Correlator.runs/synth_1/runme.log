@@ -1,0 +1,426 @@
+
+*** Running vivado
+    with args -log Correlator_64.rds -m32 -mode batch -messageDb vivado.pb -source Correlator_64.tcl
+
+
+****** Vivado v2013.3
+  **** SW Build 329390 on Wed Oct 16 18:35:21 MDT 2013
+  **** IP Build 192953 on Wed Oct 16 08:44:02 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: Implementation
+INFO: [Common 17-81] Feature available: Implementation
+INFO: [Device 21-36] Loading parts and site information from D:/vivado/Vivado/2013.3/data/parts/arch.xml
+Parsing RTL primitives file [D:/vivado/Vivado/2013.3/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [D:/vivado/Vivado/2013.3/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+source Correlator_64.tcl
+# set_param gui.test TreeTableDev
+# set_msg_config -id {HDL 9-1061} -limit 100000
+# set_msg_config -id {HDL 9-1654} -limit 100000
+# create_project -in_memory -part xq7z045rf676-2I
+# set_property target_language Verilog [current_project]
+# set_param project.compositeFile.enableAutoGeneration 0
+# read_vhdl {
+#   D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd
+#   D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shirt_register_8.vhd
+#   D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shirt_register_4.vhd
+#   D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_32.vhd
+#   D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_2.vhd
+#   D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_16.vhd
+#   D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_1.vhd
+#   D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/Correlator_64.vhd
+# }
+# set_param synth.vivado.isSynthRun true
+# set_property webtalk.parent_dir D:/vivado_project/Correlator/Correlator.data/wt [current_project]
+# set_property parent.project_dir D:/vivado_project/Correlator [current_project]
+# synth_design -top Correlator_64 -part xq7z045rf676-2I
+Command: synth_design -top Correlator_64 -part xq7z045rf676-2I
+
+Starting synthesis...
+
+INFO: [Common 17-347] Attempting to get a license for feature 'Synthesis' and/or device 'xq7z045'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xq7z045'
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 327.563 ; gain = 75.004
+INFO: [Synth 8-638] synthesizing module 'Correlator_64' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/Correlator_64.vhd:45]
+INFO: [Synth 8-3491] module 'shift_register_32' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_32.vhd:36' bound to instance 'butter1' of component 'shift_register_32' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/Correlator_64.vhd:120]
+INFO: [Synth 8-638] synthesizing module 'shift_register_32' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_32.vhd:46]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_32.vhd:60]
+INFO: [Synth 8-638] synthesizing module 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'dff_logic' (1#1) [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:41]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_32.vhd:60]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_32.vhd:60]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_32.vhd:60]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_32.vhd:60]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_32.vhd:60]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_32.vhd:60]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_32.vhd:60]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_32.vhd:60]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_32.vhd:60]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_32.vhd:60]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_32.vhd:60]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_32.vhd:60]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_32.vhd:60]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_32.vhd:60]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_32.vhd:60]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_32.vhd:60]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_32.vhd:60]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_32.vhd:60]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_32.vhd:60]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_32.vhd:60]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_32.vhd:60]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_32.vhd:60]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_32.vhd:60]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_32.vhd:60]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_32.vhd:60]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_32.vhd:60]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_32.vhd:60]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_32.vhd:60]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_32.vhd:60]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_32.vhd:60]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_32.vhd:60]
+INFO: [Synth 8-256] done synthesizing module 'shift_register_32' (2#1) [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_32.vhd:46]
+INFO: [Synth 8-3491] module 'shift_register_8' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shirt_register_8.vhd:36' bound to instance 'butter2' of component 'shift_register_8' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/Correlator_64.vhd:121]
+INFO: [Synth 8-638] synthesizing module 'shift_register_8' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shirt_register_8.vhd:46]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shirt_register_8.vhd:60]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shirt_register_8.vhd:60]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shirt_register_8.vhd:60]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shirt_register_8.vhd:60]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shirt_register_8.vhd:60]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shirt_register_8.vhd:60]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shirt_register_8.vhd:60]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shirt_register_8.vhd:60]
+INFO: [Synth 8-256] done synthesizing module 'shift_register_8' (3#1) [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shirt_register_8.vhd:46]
+INFO: [Synth 8-3491] module 'shift_register_2' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_2.vhd:36' bound to instance 'butter3' of component 'shift_register_2' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/Correlator_64.vhd:122]
+INFO: [Synth 8-638] synthesizing module 'shift_register_2' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_2.vhd:46]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_2.vhd:60]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_2.vhd:60]
+INFO: [Synth 8-256] done synthesizing module 'shift_register_2' (4#1) [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_2.vhd:46]
+INFO: [Synth 8-3491] module 'shift_register_16' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_16.vhd:36' bound to instance 'butter4' of component 'shift_register_16' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/Correlator_64.vhd:123]
+INFO: [Synth 8-638] synthesizing module 'shift_register_16' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_16.vhd:46]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_16.vhd:60]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_16.vhd:60]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_16.vhd:60]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_16.vhd:60]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_16.vhd:60]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_16.vhd:60]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_16.vhd:60]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_16.vhd:60]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_16.vhd:60]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_16.vhd:60]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_16.vhd:60]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_16.vhd:60]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_16.vhd:60]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_16.vhd:60]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_16.vhd:60]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_16.vhd:60]
+INFO: [Synth 8-256] done synthesizing module 'shift_register_16' (5#1) [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_16.vhd:46]
+INFO: [Synth 8-3491] module 'shift_register_1' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_1.vhd:36' bound to instance 'butter5' of component 'shift_register_1' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/Correlator_64.vhd:124]
+INFO: [Synth 8-638] synthesizing module 'shift_register_1' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_1.vhd:46]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'delay_1' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_1.vhd:59]
+INFO: [Synth 8-256] done synthesizing module 'shift_register_1' (6#1) [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_1.vhd:46]
+INFO: [Synth 8-3491] module 'shift_register_4' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shirt_register_4.vhd:36' bound to instance 'butter6' of component 'shift_register_4' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/Correlator_64.vhd:125]
+INFO: [Synth 8-638] synthesizing module 'shift_register_4' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shirt_register_4.vhd:46]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shirt_register_4.vhd:60]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shirt_register_4.vhd:60]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shirt_register_4.vhd:60]
+INFO: [Synth 8-3491] module 'dff_logic' declared at 'D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd:35' bound to instance 'dffx' of component 'dff_logic' [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shirt_register_4.vhd:60]
+INFO: [Synth 8-256] done synthesizing module 'shift_register_4' (7#1) [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shirt_register_4.vhd:46]
+INFO: [Synth 8-256] done synthesizing module 'Correlator_64' (8#1) [D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/Correlator_64.vhd:45]
+Finished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 350.953 ; gain = 98.395
+Start RTL Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 350.953 ; gain = 98.395
+---------------------------------------------------------------------------------
+Finished RTL Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 350.953 ; gain = 98.395
+---------------------------------------------------------------------------------
+
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xq7z045rf676-2I
+Loading clock regions from D:/vivado/Vivado/2013.3/data\parts/xilinx/zynq/qzynq/xq7z045/ClockRegion.xml
+Loading clock buffers from D:/vivado/Vivado/2013.3/data\parts/xilinx/zynq/qzynq/xq7z045/ClockBuffers.xml
+Loading clock placement rules from D:/vivado/Vivado/2013.3/data/parts/xilinx/zynq/ClockPlacerRules.xml
+Loading package pin functions from D:/vivado/Vivado/2013.3/data\parts/xilinx/zynq/PinFunctions.xml...
+Loading package from D:/vivado/Vivado/2013.3/data\parts/xilinx/zynq/qzynq/xq7z045/rf676/Package.xml
+Loading io standards from D:/vivado/Vivado/2013.3/data\./parts/xilinx/zynq/IOStandards.xml
+Part Resources:
+DSPs: 900 (col length:140)
+BRAMs: 1090 (col length: RAMB8 0 RAMB16 0 RAMB18 140 RAMB36 70)
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 560.473 ; gain = 307.914
+---------------------------------------------------------------------------------
+
+No constraint files found.
+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 6     
+	   3 Input     12 Bit       Adders := 6     
++---Registers : 
+	               12 Bit    Registers := 75    
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 12    
+
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Correlator_64 
+Detailed RTL Component Info : 
+Module shift_register_16 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 1     
+	   3 Input     12 Bit       Adders := 1     
++---Registers : 
+	               12 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 2     
+Module dff_logic 
+Detailed RTL Component Info : 
++---Registers : 
+	               12 Bit    Registers := 1     
+Module shift_register_2 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 1     
+	   3 Input     12 Bit       Adders := 1     
++---Registers : 
+	               12 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 2     
+Module shift_register_1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 1     
+	   3 Input     12 Bit       Adders := 1     
++---Registers : 
+	               12 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 2     
+Module shift_register_32 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 1     
+	   3 Input     12 Bit       Adders := 1     
++---Registers : 
+	               12 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 2     
+Module shift_register_4 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 1     
+	   3 Input     12 Bit       Adders := 1     
++---Registers : 
+	               12 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 2     
+Module shift_register_8 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 1     
+	   3 Input     12 Bit       Adders := 1     
++---Registers : 
+	               12 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 2     
+
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3331] design Correlator_64 has unconnected port ce
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 560.551 ; gain = 307.992
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 573.340 ; gain = 320.781
+---------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 573.340 ; gain = 320.781
+---------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 574.688 ; gain = 322.129
+---------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 574.688 ; gain = 322.129
+---------------------------------------------------------------------------------
+
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 574.688 ; gain = 322.129
+---------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 574.688 ; gain = 322.129
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register:
++--------------+----------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name   | RTL Name                               | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++--------------+----------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Correlator_64 | butter6/delay_4[3].dffx/q_in_reg[11]   | 5      | 12    | NO           | NO                 | YES               | 12     | 0       | 
+|Correlator_64 | butter4/delay_16[15].dffx/q_in_reg[11] | 17     | 12    | NO           | NO                 | YES               | 12     | 0       | 
+|Correlator_64 | butter3/delay_2[1].dffx/q_in_reg[11]   | 3      | 12    | NO           | NO                 | YES               | 12     | 0       | 
+|Correlator_64 | butter2/delay_8[7].dffx/q_in_reg[11]   | 9      | 12    | NO           | NO                 | YES               | 12     | 0       | 
+|Correlator_64 | butter1/delay_32[31].dffx/q_in_reg[11] | 32     | 12    | NO           | NO                 | YES               | 0      | 12      | 
++--------------+----------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |BUFG    |     1|
+|2     |CARRY4  |    36|
+|3     |LUT2    |   144|
+|4     |LUT3    |   132|
+|5     |LUT4    |    12|
+|6     |SRL16E  |    48|
+|7     |SRLC32E |    12|
+|8     |FDRE    |   168|
+|9     |IBUF    |    19|
+|10    |OBUF    |    24|
++------+--------+------+
+
+Report Instance Areas: 
++------+------------------------+------------------+------+
+|      |Instance                |Module            |Cells |
++------+------------------------+------------------+------+
+|1     |top                     |                  |   596|
+|2     |  butter3               |shift_register_2  |    90|
+|3     |    \delay_2[0].dffx    |dff_logic_8       |    12|
+|4     |    \delay_2[1].dffx    |dff_logic_9       |    16|
+|5     |  butter4               |shift_register_16 |   102|
+|6     |    \delay_16[14].dffx  |dff_logic_6       |    12|
+|7     |    \delay_16[15].dffx  |dff_logic_7       |    16|
+|8     |  butter5               |shift_register_1  |    78|
+|9     |    delay_1             |dff_logic_5       |    16|
+|10    |  butter6               |shift_register_4  |    90|
+|11    |    \delay_4[2].dffx    |dff_logic_3       |    12|
+|12    |    \delay_4[3].dffx    |dff_logic_4       |    27|
+|13    |  butter1               |shift_register_32 |   102|
+|14    |    \delay_32[31].dffx  |dff_logic_1       |    28|
+|15    |    \delay_32[30].dffx  |dff_logic_2       |    12|
+|16    |  butter2               |shift_register_8  |    90|
+|17    |    \delay_8[6].dffx    |dff_logic         |    12|
+|18    |    \delay_8[7].dffx    |dff_logic_0       |    16|
++------+------------------------+------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 574.688 ; gain = 322.129
+---------------------------------------------------------------------------------
+
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Complete : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 574.688 ; gain = 322.129
+INFO: [Netlist 29-17] Analyzing 19 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s).
+INFO: [Common 17-78] Attempting to get a license: Internal_bitstream
+WARNING: [Common 17-301] Failed to get a license: Internal_bitstream
+INFO: [Memdata 28-143] Successfully populated the BRAM INIT strings from the following elf files: 
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+96 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:42 ; elapsed = 00:00:43 . Memory (MB): peak = 745.941 ; gain = 449.648
+# write_checkpoint Correlator_64.dcp
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+# report_utilization -file Correlator_64_utilization_synth.rpt -pb Correlator_64_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.072 . Memory (MB): peak = 745.941 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 30 15:24:16 2016...

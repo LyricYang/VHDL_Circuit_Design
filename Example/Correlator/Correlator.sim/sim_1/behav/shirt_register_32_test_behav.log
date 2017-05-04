@@ -1,0 +1,4 @@
+Vivado Simulator 2013.3
+Time resolution is 1 ps
+Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+Time: 5 ns  Iteration: 1  Process: /shirt_register_32_test/instant/cor  File: D:/vivado_project/Correlator/Correlator.srcs/sources_1/new/shift_register_32.vhd
