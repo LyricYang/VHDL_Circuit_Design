@@ -1,101 +1,73 @@
 
 *** Running vivado
-    with args -log Parallel_FIR.rds -m32 -mode batch -messageDb vivado.pb -source Parallel_FIR.tcl
+    with args -log Parallel_FIR.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Parallel_FIR.tcl
 
 
-****** Vivado v2013.3
-  **** SW Build 329390 on Wed Oct 16 18:35:21 MDT 2013
-  **** IP Build 192953 on Wed Oct 16 08:44:02 MDT 2013
-    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+****** Vivado v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 
-INFO: [Common 17-78] Attempting to get a license: Implementation
-INFO: [Common 17-81] Feature available: Implementation
-INFO: [Device 21-36] Loading parts and site information from D:/vivado/Vivado/2013.3/data/parts/arch.xml
-Parsing RTL primitives file [D:/vivado/Vivado/2013.3/data/parts/xilinx/rtl/prims/rtl_prims.xml]
-Finished parsing RTL primitives file [D:/vivado/Vivado/2013.3/data/parts/xilinx/rtl/prims/rtl_prims.xml]
-source Parallel_FIR.tcl
-# set_param gui.test TreeTableDev
-# set_msg_config -id {HDL 9-1061} -limit 100000
-# set_msg_config -id {HDL 9-1654} -limit 100000
-# create_project -in_memory -part xc7vx690tffg1157-3
-# set_property target_language Verilog [current_project]
-# set_param project.compositeFile.enableAutoGeneration 0
-# read_vhdl {
-#   C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Example/Parallel_FIR/Parallel_FIR.srcs/sources_1/new/my_data_types.vhd
-#   C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Example/Parallel_FIR/Parallel_FIR.srcs/sources_1/new/DFF.vhd
-#   C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Example/Parallel_FIR/Parallel_FIR.srcs/sources_1/imports/new/FIR.vhd
-#   C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Example/Parallel_FIR/Parallel_FIR.srcs/sources_1/new/Parallel_FIR.vhd
-# }
-# set_param synth.vivado.isSynthRun true
-# set_property webtalk.parent_dir C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Example/Parallel_FIR/Parallel_FIR.data/wt [current_project]
-# set_property parent.project_dir C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Example/Parallel_FIR [current_project]
-# synth_design -top Parallel_FIR -part xc7vx690tffg1157-3
+source Parallel_FIR.tcl -notrace
 Command: synth_design -top Parallel_FIR -part xc7vx690tffg1157-3
-
-Starting synthesis...
-
-INFO: [Common 17-347] Attempting to get a license for feature 'Synthesis' and/or device 'xc7vx690t'
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7vx690t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7vx690t'
-Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 327.945 ; gain = 74.945
-INFO: [Synth 8-638] synthesizing module 'Parallel_FIR' [C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Example/Parallel_FIR/Parallel_FIR.srcs/sources_1/new/Parallel_FIR.vhd:47]
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 3036 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 328.844 ; gain = 119.488
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Parallel_FIR' [C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Parallel_FIR/Parallel_FIR.srcs/sources_1/new/Parallel_FIR.vhd:47]
 	Parameter n bound to: 2 - type: integer 
 	Parameter m bound to: 2 - type: integer 
 	Parameter k bound to: 2 - type: integer 
 	Parameter n bound to: 2 - type: integer 
 	Parameter m bound to: 2 - type: integer 
-INFO: [Synth 8-3491] module 'FIR' declared at 'C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Example/Parallel_FIR/Parallel_FIR.srcs/sources_1/imports/new/FIR.vhd:36' bound to instance 'DIN0_H0' of component 'FIR' [C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Example/Parallel_FIR/Parallel_FIR.srcs/sources_1/new/Parallel_FIR.vhd:72]
-INFO: [Synth 8-638] synthesizing module 'FIR' [C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Example/Parallel_FIR/Parallel_FIR.srcs/sources_1/imports/new/FIR.vhd:45]
+INFO: [Synth 8-3491] module 'FIR' declared at 'C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Parallel_FIR/Parallel_FIR.srcs/sources_1/imports/new/FIR.vhd:36' bound to instance 'DIN0_H0' of component 'FIR' [C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Parallel_FIR/Parallel_FIR.srcs/sources_1/new/Parallel_FIR.vhd:72]
+INFO: [Synth 8-638] synthesizing module 'FIR' [C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Parallel_FIR/Parallel_FIR.srcs/sources_1/imports/new/FIR.vhd:45]
 	Parameter n bound to: 2 - type: integer 
 	Parameter m bound to: 2 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'FIR' (1#1) [C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Example/Parallel_FIR/Parallel_FIR.srcs/sources_1/imports/new/FIR.vhd:45]
+INFO: [Synth 8-256] done synthesizing module 'FIR' (1#1) [C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Parallel_FIR/Parallel_FIR.srcs/sources_1/imports/new/FIR.vhd:45]
 	Parameter n bound to: 2 - type: integer 
 	Parameter m bound to: 2 - type: integer 
-INFO: [Synth 8-3491] module 'FIR' declared at 'C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Example/Parallel_FIR/Parallel_FIR.srcs/sources_1/imports/new/FIR.vhd:36' bound to instance 'DIN0_H1' of component 'FIR' [C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Example/Parallel_FIR/Parallel_FIR.srcs/sources_1/new/Parallel_FIR.vhd:73]
+INFO: [Synth 8-3491] module 'FIR' declared at 'C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Parallel_FIR/Parallel_FIR.srcs/sources_1/imports/new/FIR.vhd:36' bound to instance 'DIN0_H1' of component 'FIR' [C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Parallel_FIR/Parallel_FIR.srcs/sources_1/new/Parallel_FIR.vhd:73]
 	Parameter n bound to: 2 - type: integer 
 	Parameter m bound to: 2 - type: integer 
-INFO: [Synth 8-3491] module 'FIR' declared at 'C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Example/Parallel_FIR/Parallel_FIR.srcs/sources_1/imports/new/FIR.vhd:36' bound to instance 'DIN1_H0' of component 'FIR' [C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Example/Parallel_FIR/Parallel_FIR.srcs/sources_1/new/Parallel_FIR.vhd:74]
+INFO: [Synth 8-3491] module 'FIR' declared at 'C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Parallel_FIR/Parallel_FIR.srcs/sources_1/imports/new/FIR.vhd:36' bound to instance 'DIN1_H0' of component 'FIR' [C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Parallel_FIR/Parallel_FIR.srcs/sources_1/new/Parallel_FIR.vhd:74]
 	Parameter n bound to: 2 - type: integer 
 	Parameter m bound to: 2 - type: integer 
-INFO: [Synth 8-3491] module 'FIR' declared at 'C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Example/Parallel_FIR/Parallel_FIR.srcs/sources_1/imports/new/FIR.vhd:36' bound to instance 'DIN1_H1' of component 'FIR' [C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Example/Parallel_FIR/Parallel_FIR.srcs/sources_1/new/Parallel_FIR.vhd:75]
+INFO: [Synth 8-3491] module 'FIR' declared at 'C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Parallel_FIR/Parallel_FIR.srcs/sources_1/imports/new/FIR.vhd:36' bound to instance 'DIN1_H1' of component 'FIR' [C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Parallel_FIR/Parallel_FIR.srcs/sources_1/new/Parallel_FIR.vhd:75]
 	Parameter m bound to: 2 - type: integer 
-INFO: [Synth 8-3491] module 'DFF' declared at 'C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Example/Parallel_FIR/Parallel_FIR.srcs/sources_1/new/DFF.vhd:35' bound to instance 'INSTANT_DFF' of component 'DFF' [C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Example/Parallel_FIR/Parallel_FIR.srcs/sources_1/new/Parallel_FIR.vhd:76]
-INFO: [Synth 8-638] synthesizing module 'DFF' [C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Example/Parallel_FIR/Parallel_FIR.srcs/sources_1/new/DFF.vhd:43]
+INFO: [Synth 8-3491] module 'DFF' declared at 'C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Parallel_FIR/Parallel_FIR.srcs/sources_1/new/DFF.vhd:35' bound to instance 'INSTANT_DFF' of component 'DFF' [C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Parallel_FIR/Parallel_FIR.srcs/sources_1/new/Parallel_FIR.vhd:76]
+INFO: [Synth 8-638] synthesizing module 'DFF' [C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Parallel_FIR/Parallel_FIR.srcs/sources_1/new/DFF.vhd:43]
 	Parameter m bound to: 2 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'DFF' (2#1) [C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Example/Parallel_FIR/Parallel_FIR.srcs/sources_1/new/DFF.vhd:43]
-INFO: [Synth 8-256] done synthesizing module 'Parallel_FIR' (3#1) [C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Example/Parallel_FIR/Parallel_FIR.srcs/sources_1/new/Parallel_FIR.vhd:47]
-Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 351.172 ; gain = 98.172
-Start RTL Optimization : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 351.172 ; gain = 98.172
+INFO: [Synth 8-256] done synthesizing module 'DFF' (2#1) [C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Parallel_FIR/Parallel_FIR.srcs/sources_1/new/DFF.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'Parallel_FIR' (3#1) [C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Parallel_FIR/Parallel_FIR.srcs/sources_1/new/Parallel_FIR.vhd:47]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 351.172 ; gain = 98.172
+Finished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 365.000 ; gain = 155.645
 ---------------------------------------------------------------------------------
-
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 365.000 ; gain = 155.645
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7vx690tffg1157-3
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 365.000 ; gain = 155.645
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7vx690tffg1157-3
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 371.539 ; gain = 162.184
+---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
 | |RTL Partition |Replication |Instances |
 +-+--------------+------------+----------+
 +-+--------------+------------+----------+
-
----------------------------------------------------------------------------------
-Start Loading Part and Timing Information
----------------------------------------------------------------------------------
-Loading part: xc7vx690tffg1157-3
-Loading clock regions from D:/vivado/Vivado/2013.3/data\parts/xilinx/virtex7/virtex7/xc7vx690t/ClockRegion.xml
-Loading clock buffers from D:/vivado/Vivado/2013.3/data\parts/xilinx/virtex7/virtex7/xc7vx690t/ClockBuffers.xml
-Loading clock placement rules from D:/vivado/Vivado/2013.3/data/parts/xilinx/virtex7/ClockPlacerRules.xml
-Loading package pin functions from D:/vivado/Vivado/2013.3/data\parts/xilinx/virtex7/PinFunctions.xml...
-Loading package from D:/vivado/Vivado/2013.3/data\parts/xilinx/virtex7/virtex7/xc7vx690t/ffg1157/Package.xml
-Loading io standards from D:/vivado/Vivado/2013.3/data\./parts/xilinx/virtex7/IOStandards.xml
-Loading device configuration modes from D:/vivado/Vivado/2013.3/data\parts/xilinx/virtex7/ConfigModes.xml
-Part Resources:
-DSPs: 3600 (col length:200)
-BRAMs: 2940 (col length: RAMB8 0 RAMB16 0 RAMB18 200 RAMB36 100)
----------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 626.695 ; gain = 373.695
----------------------------------------------------------------------------------
-
 No constraint files found.
-
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -107,11 +79,9 @@ Detailed RTL Component Info :
 	                2 Bit    Registers := 4     
 +---Muxes : 
 	   2 Input      4 Bit        Muxes := 4     
-
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
 ---------------------------------------------------------------------------------
-
 ---------------------------------------------------------------------------------
 Start RTL Hierarchical Component Statistics 
 ---------------------------------------------------------------------------------
@@ -131,83 +101,83 @@ Module DFF
 Detailed RTL Component Info : 
 +---Registers : 
 	                4 Bit    Registers := 1     
-
 ---------------------------------------------------------------------------------
 Finished RTL Hierarchical Component Statistics
 ---------------------------------------------------------------------------------
-
 ---------------------------------------------------------------------------------
-Start Cross Boundary Optimization
+Start Part Resource Summary
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-4471] merging register 'DIN0_H1/reg_reg[0][1:0]' into 'DIN0_H0/reg_reg[0][1:0]' [C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Example/Parallel_FIR/Parallel_FIR.srcs/sources_1/imports/new/FIR.vhd:67]
-INFO: [Synth 8-4471] merging register 'DIN1_H1/reg_reg[0][1:0]' into 'DIN1_H0/reg_reg[0][1:0]' [C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Example/Parallel_FIR/Parallel_FIR.srcs/sources_1/imports/new/FIR.vhd:67]
+Part Resources:
+DSPs: 3600 (col length:200)
+BRAMs: 2940 (col length: RAMB18 200 RAMB36 100)
 ---------------------------------------------------------------------------------
-Finished Cross Boundary Optimization : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 626.707 ; gain = 373.707
----------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------
-Start RAM, DSP and Shift Register Reporting
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished RAM, DSP and Shift Register Reporting
----------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------
-Start Area Optimization
+Finished Part Resource Summary
 ---------------------------------------------------------------------------------
 No constraint files found.
 ---------------------------------------------------------------------------------
-Finished Area Optimization : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 645.512 ; gain = 392.512
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4471] merging register 'DIN0_H1/reg_reg[0][1:0]' into 'DIN0_H0/reg_reg[0][1:0]' [C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Parallel_FIR/Parallel_FIR.srcs/sources_1/imports/new/FIR.vhd:59]
+INFO: [Synth 8-4471] merging register 'DIN1_H1/reg_reg[0][1:0]' into 'DIN1_H0/reg_reg[0][1:0]' [C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Parallel_FIR/Parallel_FIR.srcs/sources_1/imports/new/FIR.vhd:59]
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 675.320 ; gain = 465.965
 ---------------------------------------------------------------------------------
 
-
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 No constraint files found.
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 645.512 ; gain = 392.512
+Finished Timing Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 675.320 ; gain = 465.965
 ---------------------------------------------------------------------------------
 
-
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
-WARNING: [Synth 8-3332] Sequential element (\INSTANT_DFF/q_reg[3] ) is unused and will be removed from module Parallel_FIR.
-WARNING: [Synth 8-3332] Sequential element (\DIN0_H0/acc_reg[3] ) is unused and will be removed from module Parallel_FIR.
-WARNING: [Synth 8-3332] Sequential element (\DIN1_H0/acc_reg[3] ) is unused and will be removed from module Parallel_FIR.
-WARNING: [Synth 8-3332] Sequential element (\DIN0_H1/acc_reg[3] ) is unused and will be removed from module Parallel_FIR.
-WARNING: [Synth 8-3332] Sequential element (\DIN1_H1/acc_reg[3] ) is unused and will be removed from module Parallel_FIR.
-WARNING: [Synth 8-3332] Sequential element (\DIN1_H1/acc_reg[0] ) is unused and will be removed from module Parallel_FIR.
-WARNING: [Synth 8-3332] Sequential element (\DIN0_H1/acc_reg[0] ) is unused and will be removed from module Parallel_FIR.
+INFO: [Synth 8-3886] merging instance 'DIN1_H1/acc_reg[0]' (FDE) to 'DIN1_H0/acc_reg[0]'
+INFO: [Synth 8-3886] merging instance 'DIN1_H1/acc_reg[3]' (FDE) to 'DIN1_H1/acc_reg[2]'
+INFO: [Synth 8-3886] merging instance 'DIN0_H1/acc_reg[0]' (FDE) to 'DIN0_H0/acc_reg[0]'
+INFO: [Synth 8-3886] merging instance 'DIN0_H1/acc_reg[3]' (FDE) to 'DIN0_H1/acc_reg[2]'
+INFO: [Synth 8-3886] merging instance 'DIN1_H0/acc_reg[3]' (FDE) to 'DIN1_H0/acc_reg[2]'
+INFO: [Synth 8-3886] merging instance 'DIN0_H0/acc_reg[3]' (FDE) to 'DIN0_H0/acc_reg[2]'
+INFO: [Synth 8-3886] merging instance 'INSTANT_DFF/q_reg[3]' (FDC) to 'INSTANT_DFF/q_reg[2]'
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 645.512 ; gain = 392.512
+Finished Technology Mapping : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 676.516 ; gain = 467.160
 ---------------------------------------------------------------------------------
 
-
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
 ---------------------------------------------------------------------------------
 Start IO Insertion
 ---------------------------------------------------------------------------------
-
 ---------------------------------------------------------------------------------
 Start Flattening Before IO Insertion
 ---------------------------------------------------------------------------------
-
 ---------------------------------------------------------------------------------
 Finished Flattening Before IO Insertion
 ---------------------------------------------------------------------------------
-
 ---------------------------------------------------------------------------------
 Start Final Netlist Cleanup
 ---------------------------------------------------------------------------------
-
 ---------------------------------------------------------------------------------
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 645.512 ; gain = 392.512
+Finished IO Insertion : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 676.516 ; gain = 467.160
 ---------------------------------------------------------------------------------
-
 
 Report Check Netlist: 
 +------+------------------+-------+---------+-------+------------------+
@@ -215,29 +185,42 @@ Report Check Netlist:
 +------+------------------+-------+---------+-------+------------------+
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
-
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 645.512 ; gain = 392.512
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 676.516 ; gain = 467.160
 ---------------------------------------------------------------------------------
 
-
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 645.512 ; gain = 392.512
----------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------
-Start RAM, DSP and Shift Register Reporting
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 676.516 ; gain = 467.160
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RAM, DSP and Shift Register Reporting
+Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
-
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 676.516 ; gain = 467.160
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 676.516 ; gain = 467.160
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 676.516 ; gain = 467.160
+---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
 ---------------------------------------------------------------------------------
@@ -268,35 +251,30 @@ Report Instance Areas:
 |      |Instance      |Module |Cells |
 +------+--------------+-------+------+
 |1     |top           |       |    52|
-|2     |  INSTANT_DFF |DFF    |     6|
-|3     |  DIN1_H0     |FIR    |    12|
-|4     |  DIN0_H0     |FIR_0  |    10|
-|5     |  DIN0_H1     |FIR_1  |     4|
-|6     |  DIN1_H1     |FIR_2  |     4|
+|2     |  DIN0_H0     |FIR    |    12|
+|3     |  DIN0_H1     |FIR_0  |     4|
+|4     |  DIN1_H0     |FIR_1  |    11|
+|5     |  DIN1_H1     |FIR_2  |     4|
+|6     |  INSTANT_DFF |DFF    |     5|
 +------+--------------+-------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 645.512 ; gain = 392.512
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 676.516 ; gain = 467.160
 ---------------------------------------------------------------------------------
-
-Synthesis finished with 0 errors, 0 critical warnings and 7 warnings.
-Synthesis Optimization Complete : Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 645.512 ; gain = 392.512
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 676.516 ; gain = 385.805
+Synthesis Optimization Complete : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 676.516 ; gain = 467.160
+INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 7 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
-INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
-INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
-INFO: [Opt 31-138] Pushed 0 inverter(s).
-INFO: [Common 17-78] Attempting to get a license: Internal_bitstream
-WARNING: [Common 17-301] Failed to get a license: Internal_bitstream
-INFO: [Memdata 28-143] Successfully populated the BRAM INIT strings from the following elf files: 
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-24 Infos, 8 Warnings, 0 Critical Warnings and 0 Errors encountered.
+33 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:59 ; elapsed = 00:01:02 . Memory (MB): peak = 964.590 ; gain = 667.848
-# write_checkpoint Parallel_FIR.dcp
-INFO: [Timing 38-35] Done setting XDC timing constraints.
-# report_utilization -file Parallel_FIR_utilization_synth.rpt -pb Parallel_FIR_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.180 . Memory (MB): peak = 964.590 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Mon Apr 17 21:02:16 2017...
+synth_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 759.742 ; gain = 520.469
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Parallel_FIR/Parallel_FIR.runs/synth_1/Parallel_FIR.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.063 . Memory (MB): peak = 759.742 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sat May 06 19:22:12 2017...

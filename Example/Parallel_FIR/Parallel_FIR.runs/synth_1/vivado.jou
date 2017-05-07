@@ -1,10 +1,12 @@
 #-----------------------------------------------------------
-# Vivado v2013.3
-# SW Build 329390 on Wed Oct 16 18:35:21 MDT 2013
-# IP Build 192953 on Wed Oct 16 08:44:02 MDT 2013
-# Start of session at: Mon Apr 17 21:01:12 2017
-# Process ID: 4208
-# Log file: C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Example/Parallel_FIR/Parallel_FIR.runs/synth_1/Parallel_FIR.rds
-# Journal file: C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Example/Parallel_FIR/Parallel_FIR.runs/synth_1\vivado.jou
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Sat May 06 19:21:43 2017
+# Process ID: 1164
+# Current directory: C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Parallel_FIR/Parallel_FIR.runs/synth_1
+# Command line: vivado.exe -log Parallel_FIR.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Parallel_FIR.tcl
+# Log file: C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Parallel_FIR/Parallel_FIR.runs/synth_1/Parallel_FIR.vds
+# Journal file: C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Parallel_FIR/Parallel_FIR.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
-source Parallel_FIR.tcl
+source Parallel_FIR.tcl -notrace
