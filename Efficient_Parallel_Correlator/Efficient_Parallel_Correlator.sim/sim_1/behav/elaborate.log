@@ -1,0 +1,30 @@
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: E:/ProgramFiles/Vivado/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto c550850a50b541588c470d1d6a374ccd --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Golay_128_sim_behav xil_defaultlib.Golay_128_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package xil_defaultlib.my_data_type
+Compiling architecture behavioral of entity xil_defaultlib.Basic_Structure_0 [\Basic_Structure_0(m=9)\]
+Compiling architecture behavioral of entity xil_defaultlib.DFF [\DFF(m=9)\]
+Compiling architecture behavioral of entity xil_defaultlib.Basic_Structure_1D [basic_structure_1d_default]
+Compiling architecture behavioral of entity xil_defaultlib.Stage_8_1D [stage_8_1d_default]
+Compiling architecture behavioral of entity xil_defaultlib.Stage_8_8D [stage_8_8d_default]
+Compiling architecture behavioral of entity xil_defaultlib.Stage_8_2D [stage_8_2d_default]
+Compiling architecture behavioral of entity xil_defaultlib.Stage_8_4D [stage_8_4d_default]
+Compiling architecture behavioral of entity xil_defaultlib.Basic_Structure_2D [basic_structure_2d_default]
+Compiling architecture behavioral of entity xil_defaultlib.Stage_8_16D [stage_8_16d_default]
+Compiling architecture behavioral of entity xil_defaultlib.Basic_Structure_4D [basic_structure_4d_default]
+Compiling architecture behavioral of entity xil_defaultlib.Stage_8_32D [stage_8_32d_default]
+Compiling architecture behavioral of entity xil_defaultlib.Basic_Structure_8D [basic_structure_8d_default]
+Compiling architecture behavioral of entity xil_defaultlib.Stage_8_64D [stage_8_64d_default]
+Compiling architecture behavioral of entity xil_defaultlib.Golay_128 [golay_128_default]
+Compiling architecture behavioral of entity xil_defaultlib.golay_128_sim
+Built simulation snapshot Golay_128_sim_behav

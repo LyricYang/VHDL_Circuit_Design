@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Golay_128_sim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Golay_128_sim" />
+            <top_module name="my_data_type" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="67530000fs"></ZoomStartTime>
+      <ZoomEndTime time="237930001fs"></ZoomEndTime>
+      <Cursor1Time time="235130000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="128"></NameColumnWidth>
+      <ValueColumnWidth column_width="64"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/Golay_128_sim/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Golay_128_sim/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Golay_128_sim/W" type="array">
+      <obj_property name="ElementShortName">W[6:0]</obj_property>
+      <obj_property name="ObjectShortName">W[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Golay_128_sim/rk" type="array">
+      <obj_property name="ElementShortName">rk[0:7][8:0]</obj_property>
+      <obj_property name="ObjectShortName">rk[0:7][8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Golay_128_sim/Cora" type="array">
+      <obj_property name="ElementShortName">Cora[0:7][8:0]</obj_property>
+      <obj_property name="ObjectShortName">Cora[0:7][8:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Golay_128_sim/Cora[0]" type="array">
+         <obj_property name="ElementShortName">[0][8:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][8:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Golay_128_sim/Cora[1]" type="array">
+         <obj_property name="ElementShortName">[1][8:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][8:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Golay_128_sim/Cora[2]" type="array">
+         <obj_property name="ElementShortName">[2][8:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][8:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Golay_128_sim/Cora[3]" type="array">
+         <obj_property name="ElementShortName">[3][8:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][8:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Golay_128_sim/Cora[4]" type="array">
+         <obj_property name="ElementShortName">[4][8:0]</obj_property>
+         <obj_property name="ObjectShortName">[4][8:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Golay_128_sim/Cora[5]" type="array">
+         <obj_property name="ElementShortName">[5][8:0]</obj_property>
+         <obj_property name="ObjectShortName">[5][8:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Golay_128_sim/Cora[6]" type="array">
+         <obj_property name="ElementShortName">[6][8:0]</obj_property>
+         <obj_property name="ObjectShortName">[6][8:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Golay_128_sim/Cora[7]" type="array">
+         <obj_property name="ElementShortName">[7][8:0]</obj_property>
+         <obj_property name="ObjectShortName">[7][8:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/Golay_128_sim/Corb" type="array">
+      <obj_property name="ElementShortName">Corb[0:7][8:0]</obj_property>
+      <obj_property name="ObjectShortName">Corb[0:7][8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Golay_128_sim/m" type="other">
+      <obj_property name="ElementShortName">m</obj_property>
+      <obj_property name="ObjectShortName">m</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Golay_128_sim/clk_period" type="other">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+</wave_config>

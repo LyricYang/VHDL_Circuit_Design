@@ -1,0 +1,20 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../Efficient_Parallel_Correlator.srcs/sources_1/new/my_data_type.vhd"
+vhdl xil_defaultlib  "../../../Efficient_Parallel_Correlator.srcs/sources_1/new/Dff.vhd"
+vhdl xil_defaultlib  "../../../Efficient_Parallel_Correlator.srcs/sources_1/new/Basic_Structure_1D.vhd"
+vhdl xil_defaultlib  "../../../Efficient_Parallel_Correlator.srcs/sources_1/new/Basic_Structure_0.vhd"
+vhdl xil_defaultlib  "../../../Efficient_Parallel_Correlator.srcs/sources_1/new/Stage_8_1D.vhd"
+vhdl xil_defaultlib  "../../../Efficient_Parallel_Correlator.srcs/sources_1/new/Stage_8_2D.vhd"
+vhdl xil_defaultlib  "../../../Efficient_Parallel_Correlator.srcs/sources_1/new/Stage_8_4D.vhd"
+vhdl xil_defaultlib  "../../../Efficient_Parallel_Correlator.srcs/sources_1/new/Stage_8_8D.vhd"
+vhdl xil_defaultlib  "../../../Efficient_Parallel_Correlator.srcs/sources_1/new/Basic_Structure_2D.vhd"
+vhdl xil_defaultlib  "../../../Efficient_Parallel_Correlator.srcs/sources_1/new/Basic_Structure_4D.vhd"
+vhdl xil_defaultlib  "../../../Efficient_Parallel_Correlator.srcs/sources_1/new/Basic_Structure_8D.vhd"
+vhdl xil_defaultlib  "../../../Efficient_Parallel_Correlator.srcs/sources_1/new/Stage_8_16D.vhd"
+vhdl xil_defaultlib  "../../../Efficient_Parallel_Correlator.srcs/sources_1/new/Stage_8_32D.vhd"
+vhdl xil_defaultlib  "../../../Efficient_Parallel_Correlator.srcs/sources_1/new/Stage_8_64D.vhd"
+vhdl xil_defaultlib  "../../../Efficient_Parallel_Correlator.srcs/sources_1/new/Golay_128.vhd"
+vhdl xil_defaultlib  "../../../Efficient_Parallel_Correlator.srcs/sim_1/new/Golay_128_sim.vhd"
+
+# Do not sort compile order
+nosort

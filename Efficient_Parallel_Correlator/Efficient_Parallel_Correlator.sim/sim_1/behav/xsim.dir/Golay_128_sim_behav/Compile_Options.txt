@@ -1,0 +1,1 @@
+-wto "c550850a50b541588c470d1d6a374ccd" --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "Golay_128_sim_behav" "xil_defaultlib.Golay_128_sim" -log "elaborate.log" 
