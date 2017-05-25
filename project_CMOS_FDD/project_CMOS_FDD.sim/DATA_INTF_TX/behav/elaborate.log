@@ -1,0 +1,73 @@
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 8cfd04959db3464c83b0b99fb3e5308e --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Test4Tx_behav xil_defaultlib.Test4Tx xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "E:/Project_CMOS_FDD/project_CMOS_FDD/project_CMOS_FDD.srcs/sources_1/imports/Project_CMOS_FDD/AD80305_DATA_INTF_RX.v" Line 15. Module AD80305_DATA_INTF_RX doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Project_CMOS_FDD/project_CMOS_FDD/project_CMOS_FDD.srcs/sources_1/imports/Project_CMOS_FDD/AD80305_DATA_INTF_TX.v" Line 16. Module AD80305_DATA_INTF_TX doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Project_CMOS_FDD/project_CMOS_FDD/project_CMOS_FDD.srcs/sources_1/imports/Project_CMOS_FDD/AD80305_DATA_INTF_RX.v" Line 15. Module AD80305_DATA_INTF_RX doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Project_CMOS_FDD/project_CMOS_FDD/project_CMOS_FDD.srcs/sources_1/imports/Project_CMOS_FDD/AD80305_DATA_INTF_TX.v" Line 16. Module AD80305_DATA_INTF_TX doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUF(IOSTANDARD="LVCMOS25")
+Compiling module unisims_ver.BUFR_default
+Compiling module unisims_ver.IDDR(SRTYPE="ASYNC")
+Compiling module xil_defaultlib.DDR_FDD_IN_selectio_wiz(SYS_W=13...
+Compiling module xil_defaultlib.DDR_FDD_IN
+Compiling module unisims_ver.GND
+Compiling module unisims_ver.VCC
+Compiling module unisims_ver.ffsrce_fdce
+Compiling module unisims_ver.FDCE
+Compiling module xil_defaultlib.INTF_FIFO_synchronizer_ff
+Compiling module xil_defaultlib.INTF_FIFO_synchronizer_ff_0
+Compiling module unisims_ver.LUT4
+Compiling module unisims_ver.x_lut3_mux4
+Compiling module unisims_ver.x_lut3_mux4_reduced_0
+Compiling module unisims_ver.LUT3
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module xil_defaultlib.INTF_FIFO_synchronizer_ff_1
+Compiling module xil_defaultlib.INTF_FIFO_synchronizer_ff_2
+Compiling module unisims_ver.LUT6
+Compiling module xil_defaultlib.INTF_FIFO_clk_x_pntrs
+Compiling module unisims_ver.ffsrce_fdpe
+Compiling module unisims_ver.FDPE
+Compiling module xil_defaultlib.INTF_FIFO_rd_status_flags_as
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1
+Compiling module xil_defaultlib.INTF_FIFO_rd_bin_cntr
+Compiling module xil_defaultlib.INTF_FIFO_rd_logic
+Compiling module xil_defaultlib.INTF_FIFO_wr_status_flags_as
+Compiling module unisims_ver.LUT5
+Compiling module xil_defaultlib.INTF_FIFO_wr_bin_cntr
+Compiling module xil_defaultlib.INTF_FIFO_wr_logic
+Compiling module unisims_ver.RB18_INTERNAL_VLOG(DOA_REG=0,DOB...
+Compiling module unisims_ver.RAMB18E1(RAM_MODE="SDP",READ_WID...
+Compiling module xil_defaultlib.INTF_FIFO_blk_mem_gen_prim_wrapp...
+Compiling module xil_defaultlib.INTF_FIFO_blk_mem_gen_prim_width
+Compiling module xil_defaultlib.INTF_FIFO_blk_mem_gen_generic_cs...
+Compiling module xil_defaultlib.INTF_FIFO_blk_mem_gen_top
+Compiling module xil_defaultlib.INTF_FIFO_blk_mem_gen_v8_2_synth
+Compiling module xil_defaultlib.INTF_FIFO_blk_mem_gen_v8_2
+Compiling module xil_defaultlib.INTF_FIFO_memory
+Compiling module unisims_ver.sffsrce_fdre
+Compiling module unisims_ver.FDRE
+Compiling module unisims_ver.FDPE(INIT=1'b0)
+Compiling module xil_defaultlib.INTF_FIFO_reset_blk_ramfifo
+Compiling module xil_defaultlib.INTF_FIFO_fifo_generator_ramfifo
+Compiling module xil_defaultlib.INTF_FIFO_fifo_generator_top
+Compiling module xil_defaultlib.INTF_FIFO_fifo_generator_v12_0_s...
+Compiling module xil_defaultlib.INTF_FIFO_fifo_generator_v12_0
+Compiling module xil_defaultlib.INTF_FIFO
+Compiling module xil_defaultlib.AD80305_DATA_INTF_RX
+Compiling module unisims_ver.OBUF(IOSTANDARD="LVCMOS25")
+Compiling module unisims_ver.ODDR(SRTYPE="ASYNC")
+Compiling module xil_defaultlib.DDR_FDD_OUT_selectio_wiz(SYS_W=1...
+Compiling module xil_defaultlib.DDR_FDD_OUT
+Compiling module xil_defaultlib.AD80305_DATA_INTF_TX
+Compiling module xil_defaultlib.Test4Tx
+Compiling module xil_defaultlib.glbl
+Waiting for 3 sub-compilation(s) to finish...
+Built simulation snapshot Test4Tx_behav

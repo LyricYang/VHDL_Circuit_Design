@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../project_CMOS_FDD.srcs/sources_1/ip/INTF_FIFO/INTF_FIFO_funcsim.v"
+verilog xil_defaultlib  "../../../project_CMOS_FDD.srcs/sources_1/ip/DDR_FDD_OUT/DDR_FDD_OUT_selectio_wiz.v"
+verilog xil_defaultlib  "../../../project_CMOS_FDD.srcs/sources_1/ip/DDR_FDD_OUT/DDR_FDD_OUT.v"
+verilog xil_defaultlib  "../../../project_CMOS_FDD.srcs/sources_1/ip/DDR_FDD_IN/DDR_FDD_IN_selectio_wiz.v"
+verilog xil_defaultlib  "../../../project_CMOS_FDD.srcs/sources_1/ip/DDR_FDD_IN/DDR_FDD_IN.v"
+verilog xil_defaultlib  "../../../project_CMOS_FDD.srcs/sources_1/imports/Project_CMOS_FDD/AD80305_DATA_INTF_TX.v"
+verilog xil_defaultlib  "../../../project_CMOS_FDD.srcs/sources_1/imports/Project_CMOS_FDD/AD80305_DATA_INTF_RX.v"
+verilog xil_defaultlib  "../../../project_CMOS_FDD.srcs/DATA_INTF_TX2RX/new/Test4Tx2Rx.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

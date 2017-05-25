@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project_CMOS_FDD/project_CMOS_FDD/project_CMOS_FDD.srcs/sources_1/imports/Project_CMOS_FDD/AD80305_SPI_READ_WRITE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AD80305_SPI_READ_WRITE
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project_CMOS_FDD/project_CMOS_FDD/project_CMOS_FDD.srcs/sources_1/imports/Project_CMOS_FDD/AD80305_CONFIG_PART1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AD80305_CONFIG_PART1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project_CMOS_FDD/project_CMOS_FDD/project_CMOS_FDD.srcs/SPI_INTF/new/Test4In.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Test4In
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project_CMOS_FDD/project_CMOS_FDD/project_CMOS_FDD.sim/SPI_INTF/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

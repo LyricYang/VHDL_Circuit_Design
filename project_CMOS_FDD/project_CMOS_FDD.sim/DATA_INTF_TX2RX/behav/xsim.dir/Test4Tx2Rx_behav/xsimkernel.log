@@ -1,0 +1,7 @@
+Running: xsim.dir/Test4Tx2Rx_behav/xsimk.exe -simmode gui -wdb Test4Tx2Rx_behav.wdb -simrunnum 0 -socket 34516
+Design successfully loaded
+Design Loading Memory Usage: 21668 KB (Peak: 21668 KB)
+Design Loading CPU Usage: 108 ms
+Simulation completed
+Simulation Memory Usage: 28972 KB (Peak: 28972 KB)
+Simulation CPU Usage: 1699 ms

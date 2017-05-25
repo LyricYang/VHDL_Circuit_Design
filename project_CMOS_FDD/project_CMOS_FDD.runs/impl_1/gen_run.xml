@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a200tsbg484-1" LaunchTime="1475126767">
+  <File Type="RDI-RDI" Name="PICO_ICS_FDD.vdi"/>
+  <File Type="OPT-DCP" Name="PICO_ICS_FDD_opt.dcp"/>
+  <File Type="PWROPT-DRC" Name="PICO_ICS_FDD_drc_pwropted.rpt"/>
+  <File Type="PA-TCL" Name="PICO_ICS_FDD.tcl"/>
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/impl_1/constrs_in.xml"/>
+  <File Type="RUN-SRCS" Name="$PDATADIR/runs/impl_1/sources.xml"/>
+  <File Type="PWROPT-DCP" Name="PICO_ICS_FDD_pwropt.dcp"/>
+  <File Type="OPT-DRC" Name="PICO_ICS_FDD_drc_opted.rpt"/>
+  <File Type="ROUTE-DCP" Name="PICO_ICS_FDD_routed.dcp"/>
+  <File Type="RUN-STRAT" Name="$PDATADIR/runs/impl_1/impl_1.psg"/>
+  <File Type="OPT-HWDEF" Name="PICO_ICS_FDD.hwdef"/>
+  <File Type="PLACE-DCP" Name="PICO_ICS_FDD_placed.dcp"/>
+  <File Type="PLACE-IO" Name="PICO_ICS_FDD_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="PICO_ICS_FDD_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="PICO_ICS_FDD_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="PICO_ICS_FDD_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="PICO_ICS_FDD_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="PICO_ICS_FDD_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="PICO_ICS_FDD_incremental_reuse_pre_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="PICO_ICS_FDD_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="PICO_ICS_FDD_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="PICO_ICS_FDD_drc_physopted.rpt"/>
+  <File Type="ROUTE-DRC" Name="PICO_ICS_FDD_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="PICO_ICS_FDD_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="PICO_ICS_FDD_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="PICO_ICS_FDD_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="PICO_ICS_FDD_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="PICO_ICS_FDD_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="PICO_ICS_FDD_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="PICO_ICS_FDD_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="PICO_ICS_FDD_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="PICO_ICS_FDD_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="PICO_ICS_FDD_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="PICO_ICS_FDD_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="PICO_ICS_FDD_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="PICO_ICS_FDD_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="PICO_ICS_FDD_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="PICO_ICS_FDD.bit"/>
+  <File Type="BG-BIN" Name="PICO_ICS_FDD.bin"/>
+  <File Type="BITSTR-MSK" Name="PICO_ICS_FDD.msk"/>
+  <File Type="BITSTR-RBT" Name="PICO_ICS_FDD.rbt"/>
+  <File Type="BITSTR-NKY" Name="PICO_ICS_FDD.nky"/>
+  <File Type="BITSTR-BMM" Name="PICO_ICS_FDD_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="PICO_ICS_FDD.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="PICO_ICS_FDD.sysdef"/>
+  <File Type="BG-BGN" Name="PICO_ICS_FDD.bgn"/>
+  <File Type="BG-DRC" Name="PICO_ICS_FDD.drc"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/Project_CMOS_FDD/AD80305_SPI_READ_WRITE.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../AD80305_SPI_READ_WRITE.v"/>
+        <Attr Name="ImportTime" Val="1378281992"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Project_CMOS_FDD/AD80305_CONFIG_PART9_ENSM.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../AD80305_CONFIG_PART9_ENSM.v"/>
+        <Attr Name="ImportTime" Val="1386160126"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Project_CMOS_FDD/AD80305_CONFIG_PART8_GPO.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../AD80305_CONFIG_PART8_GPO.v"/>
+        <Attr Name="ImportTime" Val="1386158638"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Project_CMOS_FDD/AD80305_CONFIG_PART7_CONTROL_OUT.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../AD80305_CONFIG_PART7_CONTROL_OUT.v"/>
+        <Attr Name="ImportTime" Val="1386158644"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Project_CMOS_FDD/AD80305_CONFIG_PART6_AUXDAC_AUXADC.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../AD80305_CONFIG_PART6_AUXDAC_AUXADC.v"/>
+        <Attr Name="ImportTime" Val="1393991826"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Project_CMOS_FDD/AD80305_CONFIG_PART5_PARALLEL_PORT.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../AD80305_CONFIG_PART5_PARALLEL_PORT.v"/>
+        <Attr Name="ImportTime" Val="1386158656"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Project_CMOS_FDD/AD80305_CONFIG_PART4_RX_FILTER.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../AD80305_CONFIG_PART4_RX_FILTER.v"/>
+        <Attr Name="ImportTime" Val="1386158664"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Project_CMOS_FDD/AD80305_CONFIG_PART3_TX_FILTER.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../AD80305_CONFIG_PART3_TX_FILTER.v"/>
+        <Attr Name="ImportTime" Val="1386158670"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Project_CMOS_FDD/AD80305_CONFIG_PART2_BBPLL.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../AD80305_CONFIG_PART2_BBPLL.v"/>
+        <Attr Name="ImportTime" Val="1386158392"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Project_CMOS_FDD/AD80305_CONFIG_PART22_END_ENABLE_RX_TX.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../AD80305_CONFIG_PART22_END_ENABLE_RX_TX.v"/>
+        <Attr Name="ImportTime" Val="1386158422"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Project_CMOS_FDD/AD80305_CONFIG_PART21_RSSI_POWER_MEASURE.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../AD80305_CONFIG_PART21_RSSI_POWER_MEASURE.v"/>
+        <Attr Name="ImportTime" Val="1386158434"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Project_CMOS_FDD/AD80305_CONFIG_PART20_TX_ATT.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../AD80305_CONFIG_PART20_TX_ATT.v"/>
+        <Attr Name="ImportTime" Val="1397983446"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Project_CMOS_FDD/AD80305_CONFIG_PART19_TX_QUAD_CAL.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../AD80305_CONFIG_PART19_TX_QUAD_CAL.v"/>
+        <Attr Name="ImportTime" Val="1386158414"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Project_CMOS_FDD/AD80305_CONFIG_PART18_ADC_TUNE.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../AD80305_CONFIG_PART18_ADC_TUNE.v"/>
+        <Attr Name="ImportTime" Val="1386158488"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Project_CMOS_FDD/AD80305_CONFIG_PART17_TX_2ND_FILTER.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../AD80305_CONFIG_PART17_TX_2ND_FILTER.v"/>
+        <Attr Name="ImportTime" Val="1386158494"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Project_CMOS_FDD/AD80305_CONFIG_PART16_RX_TIA.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../AD80305_CONFIG_PART16_RX_TIA.v"/>
+        <Attr Name="ImportTime" Val="1386158502"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Project_CMOS_FDD/AD80305_CONFIG_PART15_TX_BB_FILTER_TUNE.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../AD80305_CONFIG_PART15_TX_BB_FILTER_TUNE.v"/>
+        <Attr Name="ImportTime" Val="1386158516"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Project_CMOS_FDD/AD80305_CONFIG_PART14_RX_BB_FILTER_TUNE.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../AD80305_CONFIG_PART14_RX_BB_FILTER_TUNE.v"/>
+        <Attr Name="ImportTime" Val="1386158554"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Project_CMOS_FDD/AD80305_CONFIG_PART13_RX_MANUAL_GAIN.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../AD80305_CONFIG_PART13_RX_MANUAL_GAIN.v"/>
+        <Attr Name="ImportTime" Val="1386158572"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Project_CMOS_FDD/AD80305_CONFIG_PART12_RX_GAIN_TABLE.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../AD80305_CONFIG_PART12_RX_GAIN_TABLE.v"/>
+        <Attr Name="ImportTime" Val="1386158584"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Project_CMOS_FDD/AD80305_CONFIG_PART11_MIXER_SUBTABLE.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../AD80305_CONFIG_PART11_MIXER_SUBTABLE.v"/>
+        <Attr Name="ImportTime" Val="1386158614"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Project_CMOS_FDD/AD80305_CONFIG_PART10_RFVCO.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../AD80305_CONFIG_PART10_RFVCO.v"/>
+        <Attr Name="ImportTime" Val="1386158624"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Project_CMOS_FDD/AD80305_CONFIG_PART1.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../AD80305_CONFIG_PART1.v"/>
+        <Attr Name="ImportTime" Val="1386228486"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/QPSK_I_Q_MAPPER.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/BARKER_GEN.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/VADJ_SET.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Project_CMOS_FDD/FREQ_SET_40M.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../FREQ_SET_40M.v"/>
+        <Attr Name="ImportTime" Val="1456405932"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Project_CMOS_FDD/RESET.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../RESET.v"/>
+        <Attr Name="ImportTime" Val="1378281314"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Project_CMOS_FDD/PLL_LD_DEJITTER.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../PLL_LD_DEJITTER.v"/>
+        <Attr Name="ImportTime" Val="1378281120"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Project_CMOS_FDD/AD80305_SPI_INTF.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../AD80305_SPI_INTF.v"/>
+        <Attr Name="ImportTime" Val="1397983538"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Project_CMOS_FDD/AD80305_DATA_INTF_TX.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../AD80305_DATA_INTF_TX.v"/>
+        <Attr Name="ImportTime" Val="1390816550"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Project_CMOS_FDD/AD80305_DATA_INTF_RX.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../AD80305_DATA_INTF_RX.v"/>
+        <Attr Name="ImportTime" Val="1385352498"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Project_CMOS_FDD/PICO_ICS_FDD.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../PICO_ICS_FDD.v"/>
+        <Attr Name="ImportTime" Val="1435234155"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Project_CMOS_FDD/FREQ_SET.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../FREQ_SET.v"/>
+        <Attr Name="ImportTime" Val="1456400384"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="PICO_ICS_FDD"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/Nexys_Video_XDC/NexysVideo_Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Nexys_Video_XDC/NexysVideo_Master.xdc"/>
+        <Attr Name="ImportTime" Val="1439957910"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2015"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="DDR_FDD_IN"/>
+  <BlockFileSet Type="BlockSrcs" Name="INTF_FIFO"/>
+  <BlockFileSet Type="BlockSrcs" Name="clk_wiz_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="DDR_FDD_OUT"/>
+  <BlockFileSet Type="BlockSrcs" Name="ila_0"/>
+</GenRun>

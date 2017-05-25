@@ -1,0 +1,7 @@
+Running: xsim.dir/Teset4Vadj_behav/xsimk.exe -simmode gui -wdb Teset4Vadj_behav.wdb -simrunnum 0 -socket 61810
+Design successfully loaded
+Design Loading Memory Usage: 8508 KB (Peak: 8508 KB)
+Design Loading CPU Usage: 77 ms
+Simulation completed
+Simulation Memory Usage: 12468 KB (Peak: 12468 KB)
+Simulation CPU Usage: 124 ms

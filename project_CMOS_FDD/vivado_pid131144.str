@@ -1,0 +1,121 @@
+/*
+
+Vivado v2015.2 (64-bit)
+SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+Process ID: 131144
+
+Current time: 	2/28/17 10:04:53 PM CST
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 7
+Version: 6.1
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1680x1050
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=SimSun,name=ËÎÌו,style=plain,size=12
+
+Java version: 	1.8.0_25 64-bit
+Java home: 	C:/Xilinx/Vivado/2015.2/tps/win64/jre
+
+User name: 	bangyuan
+User directory: D:/9361_fpga/project_CMOS_FDD
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+Vivado preferences path: C:/Users/bangyuan/AppData/Roaming/Xilinx/Vivado/2015.2/vivado.ini
+Vivado layouts directory: C:/Users/bangyuan/AppData/Roaming/Xilinx/Vivado/2015.2/layouts/application
+
+GUI allocated memory:	130 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 376 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 38 MB (+37196kb) [00:00:13]
+// [Engine Memory]: 349 MB (+214690kb) [00:00:13]
+// TclEventType: PROJECT_OPEN_DIALOG
+// cp:P (cl:JFrame):  Open Project : addNotify
+// Opening Vivado Project: D:\9361_fpga\project_CMOS_FDD\project_CMOS_FDD.xpr. Version: Vivado v2015.2 
+// Tcl Message: open_project D:/9361_fpga/project_CMOS_FDD/project_CMOS_FDD.xpr 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 409 MB. GUI used memory: 29 MB. Current time: 2/28/17 10:04:55 PM CST
+// [Engine Memory]: 416 MB (+51616kb) [00:00:18]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 49 MB (+10083kb) [00:00:22]
+// [Engine Memory]: 460 MB (+24411kb) [00:00:22]
+// [Engine Memory]: 499 MB (+16840kb) [00:00:23]
+// [GUI Memory]: 59 MB (+7740kb) [00:00:25]
+// [Engine Memory]: 526 MB (+2023kb) [00:00:25]
+// [GUI Memory]: 65 MB (+3012kb) [00:00:27]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: open_project D:/9361_fpga/project_CMOS_FDD/project_CMOS_FDD.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'. 
+// [Engine Memory]: 560 MB (+7674kb) [00:00:31]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 70 MB (+1422kb) [00:00:36]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 74 MB (+399kb) [00:00:36]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// Project name: project_CMOS_FDD; location: D:/9361_fpga/project_CMOS_FDD; part: xc7a200tsbg484-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:29 ; elapsed = 00:00:26 . Memory (MB): peak = 750.879 ; gain = 186.148 
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Open Project"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// HMemoryUtils.trashcanNow. Engine heap size: 589 MB. GUI used memory: 47 MB. Current time: 2/28/17 10:05:20 PM CST
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 589 MB (+1568kb) [00:00:44]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 4); // A:k (H:JPanel, cl:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 10); // A:k (H:JPanel, cl:JFrame)
+// PAPropertyPanels.initPanels (Teset4Vadj.v) elapsed time: 0.2s
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Teset4Vadj (Teset4Vadj.v)]", 11, true); // A:k (H:JPanel, cl:JFrame) - Node
+// [GUI Memory]: 78 MB (+524kb) [00:00:51]
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Teset4Vadj (Teset4Vadj.v)]", 11, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+// [GUI Memory]: 87 MB (+5404kb) [00:00:53]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Teset4Vadj (Teset4Vadj.v), U_Reset_Test - RESET (RESET.v)]", 12, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Teset4Vadj (Teset4Vadj.v), U_Reset_Test - RESET (RESET.v)]", 12, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Teset4Vadj (Teset4Vadj.v), U_VADJ_SET - VADJ_SET (VADJ_SET.v)]", 13, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Teset4Vadj (Teset4Vadj.v), U_VADJ_SET - VADJ_SET (VADJ_SET.v)]", 13, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Teset4Vadj (Teset4Vadj.v), U_Reset_Test - RESET (RESET.v)]", 12, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Teset4Vadj (Teset4Vadj.v), U_Reset_Test - RESET (RESET.v)]", 12, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+// [GUI Memory]: 92 MB (+635kb) [00:01:17]
+// Elapsed time: 90 seconds
+selectCodeEditor("RESET.v", 159, 93); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RESET.v", 154, 89); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RESET.v", 260, 104); // bj:J (JPanel:JComponent, cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 57 MB. Current time: 2/28/17 10:35:22 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 55 MB. Current time: 2/28/17 11:05:20 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 48 MB. Current time: 3/1/17 8:48:32 AM CST

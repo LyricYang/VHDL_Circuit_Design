@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Mon Sep 12 22:14:04 2016
+# Process ID: 6964
+# Log file: I:/Project_CMOS_FDD/project_CMOS_FDD/project_CMOS_FDD.runs/impl_1/PICO_ICS_FDD.vdi
+# Journal file: I:/Project_CMOS_FDD/project_CMOS_FDD/project_CMOS_FDD.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source PICO_ICS_FDD.tcl -notrace
