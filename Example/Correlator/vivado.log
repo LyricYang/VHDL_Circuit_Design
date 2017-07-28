@@ -1,23 +1,110 @@
 #-----------------------------------------------------------
-# Vivado v2013.3
-# SW Build 329390 on Wed Oct 16 18:35:21 MDT 2013
-# IP Build 192953 on Wed Oct 16 08:44:02 MDT 2013
-# Start of session at: Wed Apr 12 21:32:40 2017
-# Process ID: 6840
-# Log file: H:/新建文件夹/科研工作/程序/VHDL/Correlator/vivado.log
-# Journal file: H:/新建文件夹/科研工作/程序/VHDL/Correlator\vivado.jou
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Fri Jul 28 10:58:07 2017
+# Process ID: 10032
+# Current directory: C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Correlator
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8832 C:\Users\Administrator\Desktop\VHDL_Circuit_Design\Example\Correlator\Correlator.xpr
+# Log file: C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Correlator/vivado.log
+# Journal file: C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Correlator\vivado.jou
 #-----------------------------------------------------------
-INFO: [Common 17-78] Attempting to get a license: Implementation
-INFO: [Common 17-81] Feature available: Implementation
-INFO: [Device 21-36] Loading parts and site information from D:/vivado/Vivado/2013.3/data/parts/arch.xml
-Parsing RTL primitives file [D:/vivado/Vivado/2013.3/data/parts/xilinx/rtl/prims/rtl_prims.xml]
-Finished parsing RTL primitives file [D:/vivado/Vivado/2013.3/data/parts/xilinx/rtl/prims/rtl_prims.xml]
 start_gui
-open_project {H:\新建文件夹\科研工作\程序\VHDL\Correlator\Correlator.xpr}
-INFO: [Project 1-313] Project file moved from 'D:/vivado_project/Correlator' since last save.
+open_project C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Correlator/Correlator.xpr
 Scanning sources...
 Finished scanning sources
-open_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 602.184 ; gain = 27.727
-update_compile_order -fileset sim_1
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/ProgramFiles/Vivado/Vivado/2016.4/data/ip'.
+open_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:14 . Memory (MB): peak = 775.738 ; gain = 138.117
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'Correlator_64_test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Correlator/Correlator.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj Correlator_64_test_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity dff_logic
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Correlator/Correlator.srcs/sources_1/new/shirt_register_8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity shift_register_8
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Correlator/Correlator.srcs/sources_1/new/shirt_register_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity shift_register_4
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Correlator/Correlator.srcs/sources_1/new/shift_register_32.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity shift_register_32
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Correlator/Correlator.srcs/sources_1/new/shift_register_2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity shift_register_2
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Correlator/Correlator.srcs/sources_1/new/shift_register_16.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity shift_register_16
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Correlator/Correlator.srcs/sources_1/new/shift_register_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity shift_register_1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Correlator/Correlator.srcs/sources_1/new/Correlator_64.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Correlator_64
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Correlator/Correlator.srcs/sim_1/new/Correlator_64_test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Correlator_64_test
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Correlator/Correlator.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: E:/ProgramFiles/Vivado/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 9ea9e80469144877bddc56cd821a5811 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Correlator_64_test_behav xil_defaultlib.Correlator_64_test -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling architecture behavioral of entity xil_defaultlib.dff_logic [dff_logic_default]
+Compiling architecture behavioral of entity xil_defaultlib.shift_register_32 [shift_register_32_default]
+Compiling architecture behavioral of entity xil_defaultlib.shift_register_8 [shift_register_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.shift_register_2 [shift_register_2_default]
+Compiling architecture behavioral of entity xil_defaultlib.shift_register_16 [shift_register_16_default]
+Compiling architecture behavioral of entity xil_defaultlib.shift_register_1 [shift_register_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.shift_register_4 [shift_register_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Correlator_64 [correlator_64_default]
+Compiling architecture behavioral of entity xil_defaultlib.correlator_64_test
+Built simulation snapshot Correlator_64_test_behav
+
+****** Webtalk v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Correlator/Correlator.sim/sim_1/behav/xsim.dir/Correlator_64_test_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Correlator/Correlator.sim/sim_1/behav/xsim.dir/Correlator_64_test_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Fri Jul 28 10:59:41 2017. For additional details about this file, please refer to the WebTalk help file at E:/ProgramFiles/Vivado/Vivado/2016.4/doc/webtalk_introduction.html.
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 49.145 ; gain = 0.000
+INFO: [Common 17-206] Exiting Webtalk at Fri Jul 28 10:59:41 2017...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 817.977 ; gain = 24.223
+INFO: [USF-XSim-69] 'elaborate' step finished in '14' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Correlator/Correlator.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Correlator_64_test_behav -key {Behavioral:sim_1:Functional:Correlator_64_test} -tclbatch {Correlator_64_test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+source Correlator_64_test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Correlator_64_test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:21 . Memory (MB): peak = 817.977 ; gain = 24.223
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 830.703 ; gain = 0.000
 exit
-INFO: [Common 17-206] Exiting Vivado at Wed Apr 12 21:35:31 2017...
+INFO: [Common 17-206] Exiting Vivado at Fri Jul 28 11:01:03 2017...

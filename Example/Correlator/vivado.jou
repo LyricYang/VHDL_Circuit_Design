@@ -1,12 +1,16 @@
 #-----------------------------------------------------------
-# Vivado v2013.3
-# SW Build 329390 on Wed Oct 16 18:35:21 MDT 2013
-# IP Build 192953 on Wed Oct 16 08:44:02 MDT 2013
-# Start of session at: Wed Apr 12 21:32:40 2017
-# Process ID: 6840
-# Log file: H:/新建文件夹/科研工作/程序/VHDL/Correlator/vivado.log
-# Journal file: H:/新建文件夹/科研工作/程序/VHDL/Correlator\vivado.jou
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Fri Jul 28 10:58:07 2017
+# Process ID: 10032
+# Current directory: C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Correlator
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8832 C:\Users\Administrator\Desktop\VHDL_Circuit_Design\Example\Correlator\Correlator.xpr
+# Log file: C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Correlator/vivado.log
+# Journal file: C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Correlator\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project {H:\新建文件夹\科研工作\程序\VHDL\Correlator\Correlator.xpr}
-update_compile_order -fileset sim_1
+open_project C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Correlator/Correlator.xpr
+launch_simulation
+source Correlator_64_test.tcl
+close_sim
