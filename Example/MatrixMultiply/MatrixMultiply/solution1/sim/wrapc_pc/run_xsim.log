@@ -1,0 +1,120 @@
+Checking Results:
+
+Id x 0: Error = 0 
+
+Id x 1: Error = 0 
+
+Id x 2: Error = 0 
+
+Id x 3: Error = 0 
+
+Id x 4: Error = 0 
+
+
+C:\Users\YL\Desktop\MatrixMultiply\MatrixMultiply\solution1\sim\vhdl>call C:/Xilinx/Vivado/2017.1/bin/xelab xil_defaultlib.apatb_MatrixMultiply_top -prj MatrixMultiply.prj -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 --initfile "C:/Xilinx/Vivado/2017.1/data/xsim/ip/xsim_ip.ini" --lib "ieee_proposed=./ieee_proposed" -s MatrixMultiply -debug wave 
+INFO: [XSIM 43-3496] Using init file passed via -initfile option "C:/Xilinx/Vivado/2017.1/data/xsim/ip/xsim_ip.ini".
+Vivado Simulator 2017.1
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.1/bin/unwrapped/win64.o/xelab.exe xil_defaultlib.apatb_MatrixMultiply_top -prj MatrixMultiply.prj -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 --initfile C:/Xilinx/Vivado/2017.1/data/xsim/ip/xsim_ip.ini --lib ieee_proposed=./ieee_proposed -s MatrixMultiply -debug wave 
+Multi-threading is on. Using 6 slave threads.
+Determining compilation order of HDL files.
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/YL/Desktop/MatrixMultiply/MatrixMultiply/solution1/sim/vhdl/AESL_sim_pkg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/YL/Desktop/MatrixMultiply/MatrixMultiply/solution1/sim/vhdl/AESL_automem_AA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity AESL_automem_AA
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/YL/Desktop/MatrixMultiply/MatrixMultiply/solution1/sim/vhdl/AESL_automem_bb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity AESL_automem_bb
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/YL/Desktop/MatrixMultiply/MatrixMultiply/solution1/sim/vhdl/AESL_automem_cc.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity AESL_automem_cc
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/YL/Desktop/MatrixMultiply/MatrixMultiply/solution1/sim/vhdl/MatrixMultiply.autotb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity apatb_MatrixMultiply_top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/YL/Desktop/MatrixMultiply/MatrixMultiply/solution1/sim/vhdl/MatrixMultiply.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MatrixMultiply
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/YL/Desktop/MatrixMultiply/MatrixMultiply/solution1/sim/vhdl/MatrixMultiply_mubkb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MatrixMultiply_mubkb_Mul3S_0
+INFO: [VRFC 10-307] analyzing entity MatrixMultiply_mubkb
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_textio
+Compiling architecture behav of entity xil_defaultlib.MatrixMultiply_mubkb_Mul3S_0 [matrixmultiply_mubkb_mul3s_0_def...]
+Compiling architecture arch of entity xil_defaultlib.MatrixMultiply_mubkb [\MatrixMultiply_mubkb(id=1,num_s...]
+Compiling architecture behav of entity xil_defaultlib.MatrixMultiply [matrixmultiply_default]
+Compiling architecture behav of entity xil_defaultlib.AESL_automem_AA [aesl_automem_aa_default]
+Compiling architecture behav of entity xil_defaultlib.AESL_automem_bb [aesl_automem_bb_default]
+Compiling architecture behav of entity xil_defaultlib.AESL_automem_cc [aesl_automem_cc_default]
+Compiling architecture behav of entity xil_defaultlib.apatb_matrixmultiply_top
+Built simulation snapshot MatrixMultiply
+
+****** Webtalk v2017.1 (64-bit)
+  **** SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+  **** IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/YL/Desktop/MatrixMultiply/MatrixMultiply/solution1/sim/vhdl/xsim.dir/MatrixMultiply/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sun Aug 20 10:24:43 2017...
+
+****** xsim v2017.1 (64-bit)
+  **** SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+  **** IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/MatrixMultiply/xsim_script.tcl
+# xsim {MatrixMultiply} -autoloadwcfg -tclbatch {MatrixMultiply.tcl}
+Vivado Simulator 2017.1
+Time resolution is 1 ps
+source MatrixMultiply.tcl
+## log_wave [get_objects -filter {type == in_port || type == out_port || type == inout_port || type == port} /apatb_MatrixMultiply_top/AESL_inst_MatrixMultiply/*]
+## set designtopgroup [add_wave_group "Design Top Signals"]
+## set coutputgroup [add_wave_group "C Outputs" -into $designtopgroup]
+## set cc_group [add_wave_group cc(memory) -into $coutputgroup]
+## add_wave /apatb_MatrixMultiply_top/AESL_inst_MatrixMultiply/cc_d0 -into $cc_group -radix hex
+## add_wave /apatb_MatrixMultiply_top/AESL_inst_MatrixMultiply/cc_we0 -into $cc_group -color #ffff00 -radix hex
+## add_wave /apatb_MatrixMultiply_top/AESL_inst_MatrixMultiply/cc_ce0 -into $cc_group -color #ffff00 -radix hex
+## add_wave /apatb_MatrixMultiply_top/AESL_inst_MatrixMultiply/cc_address0 -into $cc_group -radix hex
+## set cinputgroup [add_wave_group "C Inputs" -into $designtopgroup]
+## set bb_group [add_wave_group bb(memory) -into $cinputgroup]
+## add_wave /apatb_MatrixMultiply_top/AESL_inst_MatrixMultiply/bb_q0 -into $bb_group -radix hex
+## add_wave /apatb_MatrixMultiply_top/AESL_inst_MatrixMultiply/bb_ce0 -into $bb_group -color #ffff00 -radix hex
+## add_wave /apatb_MatrixMultiply_top/AESL_inst_MatrixMultiply/bb_address0 -into $bb_group -radix hex
+## set AA_group [add_wave_group AA(memory) -into $cinputgroup]
+## add_wave /apatb_MatrixMultiply_top/AESL_inst_MatrixMultiply/AA_q0 -into $AA_group -radix hex
+## add_wave /apatb_MatrixMultiply_top/AESL_inst_MatrixMultiply/AA_ce0 -into $AA_group -color #ffff00 -radix hex
+## add_wave /apatb_MatrixMultiply_top/AESL_inst_MatrixMultiply/AA_address0 -into $AA_group -radix hex
+## set blocksiggroup [add_wave_group "Block-level IO Handshake" -into $designtopgroup]
+## add_wave /apatb_MatrixMultiply_top/AESL_inst_MatrixMultiply/ap_start -into $blocksiggroup
+## add_wave /apatb_MatrixMultiply_top/AESL_inst_MatrixMultiply/ap_done -into $blocksiggroup
+## add_wave /apatb_MatrixMultiply_top/AESL_inst_MatrixMultiply/ap_idle -into $blocksiggroup
+## add_wave /apatb_MatrixMultiply_top/AESL_inst_MatrixMultiply/ap_ready -into $blocksiggroup
+## set resetgroup [add_wave_group "Reset" -into $designtopgroup]
+## add_wave /apatb_MatrixMultiply_top/AESL_inst_MatrixMultiply/ap_rst -into $resetgroup
+## set clockgroup [add_wave_group "Clock" -into $designtopgroup]
+## add_wave /apatb_MatrixMultiply_top/AESL_inst_MatrixMultiply/ap_clk -into $clockgroup
+## save_wave_config MatrixMultiply.wcfg
+## run all
+Note: simulation done!
+Time: 1545 ns  Iteration: 1  Process: /apatb_MatrixMultiply_top/generate_sim_done_proc  File: C:/Users/YL/Desktop/MatrixMultiply/MatrixMultiply/solution1/sim/vhdl/MatrixMultiply.autotb.vhd
+Failure: NORMAL EXIT (note: failure is to force the simulator to stop)
+Time: 1545 ns  Iteration: 1  Process: /apatb_MatrixMultiply_top/generate_sim_done_proc  File: C:/Users/YL/Desktop/MatrixMultiply/MatrixMultiply/solution1/sim/vhdl/MatrixMultiply.autotb.vhd
+$finish called at time : 1545 ns
+## quit
+INFO: [Common 17-206] Exiting xsim at Sun Aug 20 10:24:48 2017...
+Checking Results:
+
+Id x 0: Error = 0 
+
+Id x 1: Error = 0 
+
+Id x 2: Error = 0 
+
+Id x 3: Error = 0 
+
+Id x 4: Error = 0 
+

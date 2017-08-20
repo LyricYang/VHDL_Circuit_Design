@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="MatrixMultiply.c" path="C:\Users\YL\Desktop\MatrixMultiply\MatrixMultiply.c"/>
+  </source>
+  <testbench>
+    <originFiles name="A.h" path="C:\Users\YL\Desktop\MatrixMultiply\A.h"/>
+    <originFiles name="TestMatrixMutiply.c" path="C:\Users\YL\Desktop\MatrixMultiply\TestMatrixMutiply.c"/>
+    <originFiles name="b.h" path="C:\Users\YL\Desktop\MatrixMultiply\b.h"/>
+    <originFiles name="c.h" path="C:\Users\YL\Desktop\MatrixMultiply\c.h"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

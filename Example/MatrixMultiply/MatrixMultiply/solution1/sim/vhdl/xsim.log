@@ -1,0 +1,51 @@
+#-----------------------------------------------------------
+# xsim v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Sun Aug 20 10:24:44 2017
+# Process ID: 10200
+# Current directory: C:/Users/YL/Desktop/MatrixMultiply/MatrixMultiply/solution1/sim/vhdl
+# Command line: xsim.exe -mode tcl -source {xsim.dir/MatrixMultiply/xsim_script.tcl}
+# Log file: C:/Users/YL/Desktop/MatrixMultiply/MatrixMultiply/solution1/sim/vhdl/xsim.log
+# Journal file: C:/Users/YL/Desktop/MatrixMultiply/MatrixMultiply/solution1/sim/vhdl\xsim.jou
+#-----------------------------------------------------------
+source xsim.dir/MatrixMultiply/xsim_script.tcl
+# xsim {MatrixMultiply} -autoloadwcfg -tclbatch {MatrixMultiply.tcl}
+Vivado Simulator 2017.1
+Time resolution is 1 ps
+source MatrixMultiply.tcl
+## log_wave [get_objects -filter {type == in_port || type == out_port || type == inout_port || type == port} /apatb_MatrixMultiply_top/AESL_inst_MatrixMultiply/*]
+## set designtopgroup [add_wave_group "Design Top Signals"]
+## set coutputgroup [add_wave_group "C Outputs" -into $designtopgroup]
+## set cc_group [add_wave_group cc(memory) -into $coutputgroup]
+## add_wave /apatb_MatrixMultiply_top/AESL_inst_MatrixMultiply/cc_d0 -into $cc_group -radix hex
+## add_wave /apatb_MatrixMultiply_top/AESL_inst_MatrixMultiply/cc_we0 -into $cc_group -color #ffff00 -radix hex
+## add_wave /apatb_MatrixMultiply_top/AESL_inst_MatrixMultiply/cc_ce0 -into $cc_group -color #ffff00 -radix hex
+## add_wave /apatb_MatrixMultiply_top/AESL_inst_MatrixMultiply/cc_address0 -into $cc_group -radix hex
+## set cinputgroup [add_wave_group "C Inputs" -into $designtopgroup]
+## set bb_group [add_wave_group bb(memory) -into $cinputgroup]
+## add_wave /apatb_MatrixMultiply_top/AESL_inst_MatrixMultiply/bb_q0 -into $bb_group -radix hex
+## add_wave /apatb_MatrixMultiply_top/AESL_inst_MatrixMultiply/bb_ce0 -into $bb_group -color #ffff00 -radix hex
+## add_wave /apatb_MatrixMultiply_top/AESL_inst_MatrixMultiply/bb_address0 -into $bb_group -radix hex
+## set AA_group [add_wave_group AA(memory) -into $cinputgroup]
+## add_wave /apatb_MatrixMultiply_top/AESL_inst_MatrixMultiply/AA_q0 -into $AA_group -radix hex
+## add_wave /apatb_MatrixMultiply_top/AESL_inst_MatrixMultiply/AA_ce0 -into $AA_group -color #ffff00 -radix hex
+## add_wave /apatb_MatrixMultiply_top/AESL_inst_MatrixMultiply/AA_address0 -into $AA_group -radix hex
+## set blocksiggroup [add_wave_group "Block-level IO Handshake" -into $designtopgroup]
+## add_wave /apatb_MatrixMultiply_top/AESL_inst_MatrixMultiply/ap_start -into $blocksiggroup
+## add_wave /apatb_MatrixMultiply_top/AESL_inst_MatrixMultiply/ap_done -into $blocksiggroup
+## add_wave /apatb_MatrixMultiply_top/AESL_inst_MatrixMultiply/ap_idle -into $blocksiggroup
+## add_wave /apatb_MatrixMultiply_top/AESL_inst_MatrixMultiply/ap_ready -into $blocksiggroup
+## set resetgroup [add_wave_group "Reset" -into $designtopgroup]
+## add_wave /apatb_MatrixMultiply_top/AESL_inst_MatrixMultiply/ap_rst -into $resetgroup
+## set clockgroup [add_wave_group "Clock" -into $designtopgroup]
+## add_wave /apatb_MatrixMultiply_top/AESL_inst_MatrixMultiply/ap_clk -into $clockgroup
+## save_wave_config MatrixMultiply.wcfg
+## run all
+Note: simulation done!
+Time: 1545 ns  Iteration: 1  Process: /apatb_MatrixMultiply_top/generate_sim_done_proc  File: C:/Users/YL/Desktop/MatrixMultiply/MatrixMultiply/solution1/sim/vhdl/MatrixMultiply.autotb.vhd
+Failure: NORMAL EXIT (note: failure is to force the simulator to stop)
+Time: 1545 ns  Iteration: 1  Process: /apatb_MatrixMultiply_top/generate_sim_done_proc  File: C:/Users/YL/Desktop/MatrixMultiply/MatrixMultiply/solution1/sim/vhdl/MatrixMultiply.autotb.vhd
+$finish called at time : 1545 ns
+## quit
+INFO: [Common 17-206] Exiting xsim at Sun Aug 20 10:24:48 2017...

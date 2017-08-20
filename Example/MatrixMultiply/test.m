@@ -1,0 +1,10 @@
+clear;  
+clc;  
+close all;  
+N = 5;  
+A = randi([1,100],N,N);  
+b = randi(100,N,1);  
+c = A*b;  
+KKK_SaveToCHeaderFile(A,'A.h');  
+KKK_SaveToCHeaderFile(b,'b.h');  
+KKK_SaveToCHeaderFile(c,'c.h');  

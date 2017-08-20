@@ -1,0 +1,24 @@
+INFO: [HLS 200-10] Running 'C:/Xilinx/Vivado_HLS/2017.1/bin/unwrapped/win64.o/vivado_hls.exe'
+INFO: [HLS 200-10] For user 'YL' on host 'antec-wuxiangu' (Windows NT_amd64 version 6.2) on Sun Aug 20 10:38:46 +0800 2017
+INFO: [HLS 200-10] In directory 'C:/Users/YL/Desktop/MatrixMultiply'
+INFO: [HLS 200-10] Opening project 'C:/Users/YL/Desktop/MatrixMultiply/MatrixMultiply'.
+INFO: [HLS 200-10] Opening solution 'C:/Users/YL/Desktop/MatrixMultiply/MatrixMultiply/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xq7z100rf900-1i'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+   Compiling(apcc) ../../../../MatrixMultiply.c in debug mode
+INFO: [HLS 200-10] Running 'c:/Xilinx/Vivado_HLS/2017.1/bin/unwrapped/win64.o/apcc.exe'
+INFO: [HLS 200-10] For user 'YL' on host 'antec-wuxiangu' (Windows NT_amd64 version 6.2) on Sun Aug 20 10:38:48 +0800 2017
+INFO: [HLS 200-10] In directory 'C:/Users/YL/Desktop/MatrixMultiply/MatrixMultiply/solution1/csim/build'
+INFO: [APCC 202-3] Tmp directory is apcc_db
+INFO: [APCC 202-1] APCC is done.
+   Generating csim.exe
+Checking Results:
+Id x 0: Error = 3535 
+Id x 1: Error = 4219 
+Id x 2: Error = 5353 
+Id x 3: Error = 16846 
+Id x 4: Error = 6309 
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************

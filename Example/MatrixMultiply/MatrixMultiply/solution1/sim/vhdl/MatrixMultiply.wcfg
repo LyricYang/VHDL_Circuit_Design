@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="MatrixMultiply.wdb" id="1">
+         <top_modules>
+            <top_module name="apatb_MatrixMultiply_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+   </zoom_setting>
+   <column_width_setting>
+   </column_width_setting>
+   <WVObjectSize size="1" />
+   <wvobject fp_name="group1" type="group">
+      <obj_property name="label">Design Top Signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="group2" type="group">
+         <obj_property name="label">C Outputs</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group3" type="group">
+            <obj_property name="label">cc(memory)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_MatrixMultiply_top/AESL_inst_MatrixMultiply/cc_d0" type="array">
+               <obj_property name="ElementShortName">cc_d0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">cc_d0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_MatrixMultiply_top/AESL_inst_MatrixMultiply/cc_we0" type="logic">
+               <obj_property name="ElementShortName">cc_we0</obj_property>
+               <obj_property name="ObjectShortName">cc_we0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_MatrixMultiply_top/AESL_inst_MatrixMultiply/cc_ce0" type="logic">
+               <obj_property name="ElementShortName">cc_ce0</obj_property>
+               <obj_property name="ObjectShortName">cc_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_MatrixMultiply_top/AESL_inst_MatrixMultiply/cc_address0" type="array">
+               <obj_property name="ElementShortName">cc_address0[2:0]</obj_property>
+               <obj_property name="ObjectShortName">cc_address0[2:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group8" type="group">
+         <obj_property name="label">C Inputs</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group9" type="group">
+            <obj_property name="label">bb(memory)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_MatrixMultiply_top/AESL_inst_MatrixMultiply/bb_q0" type="array">
+               <obj_property name="ElementShortName">bb_q0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">bb_q0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_MatrixMultiply_top/AESL_inst_MatrixMultiply/bb_ce0" type="logic">
+               <obj_property name="ElementShortName">bb_ce0</obj_property>
+               <obj_property name="ObjectShortName">bb_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_MatrixMultiply_top/AESL_inst_MatrixMultiply/bb_address0" type="array">
+               <obj_property name="ElementShortName">bb_address0[2:0]</obj_property>
+               <obj_property name="ObjectShortName">bb_address0[2:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group13" type="group">
+            <obj_property name="label">AA(memory)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_MatrixMultiply_top/AESL_inst_MatrixMultiply/AA_q0" type="array">
+               <obj_property name="ElementShortName">AA_q0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">AA_q0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_MatrixMultiply_top/AESL_inst_MatrixMultiply/AA_ce0" type="logic">
+               <obj_property name="ElementShortName">AA_ce0</obj_property>
+               <obj_property name="ObjectShortName">AA_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_MatrixMultiply_top/AESL_inst_MatrixMultiply/AA_address0" type="array">
+               <obj_property name="ElementShortName">AA_address0[4:0]</obj_property>
+               <obj_property name="ObjectShortName">AA_address0[4:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group17" type="group">
+         <obj_property name="label">Block-level IO Handshake</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/apatb_MatrixMultiply_top/AESL_inst_MatrixMultiply/ap_start" type="logic">
+            <obj_property name="ElementShortName">ap_start</obj_property>
+            <obj_property name="ObjectShortName">ap_start</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_MatrixMultiply_top/AESL_inst_MatrixMultiply/ap_done" type="logic">
+            <obj_property name="ElementShortName">ap_done</obj_property>
+            <obj_property name="ObjectShortName">ap_done</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_MatrixMultiply_top/AESL_inst_MatrixMultiply/ap_idle" type="logic">
+            <obj_property name="ElementShortName">ap_idle</obj_property>
+            <obj_property name="ObjectShortName">ap_idle</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_MatrixMultiply_top/AESL_inst_MatrixMultiply/ap_ready" type="logic">
+            <obj_property name="ElementShortName">ap_ready</obj_property>
+            <obj_property name="ObjectShortName">ap_ready</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group22" type="group">
+         <obj_property name="label">Reset</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/apatb_MatrixMultiply_top/AESL_inst_MatrixMultiply/ap_rst" type="logic">
+            <obj_property name="ElementShortName">ap_rst</obj_property>
+            <obj_property name="ObjectShortName">ap_rst</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group24" type="group">
+         <obj_property name="label">Clock</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/apatb_MatrixMultiply_top/AESL_inst_MatrixMultiply/ap_clk" type="logic">
+            <obj_property name="ElementShortName">ap_clk</obj_property>
+            <obj_property name="ObjectShortName">ap_clk</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+</wave_config>

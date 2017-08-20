@@ -1,0 +1,4 @@
+lappend pragmaStatus0 {pragma "UNROLL" source "C:/Users/YL/Desktop/MatrixMultiply/MatrixMultiply.c" location "MatrixMultiply/MatrixMultiply_label0" found 1 funcFound 1 applied 1 ambiguous 0 reason "null"}
+lappend pragmaStatus1 {pragma "ARRAY_PARTITION" source "C:/Users/YL/Desktop/MatrixMultiply/MatrixMultiply.c" location "MatrixMultiply" found 1 funcFound 1 applied 1 ambiguous 0 reason "null" variable "AA"}
+lappend pragmaStatus2 {pragma "ARRAY_PARTITION" source "C:/Users/YL/Desktop/MatrixMultiply/MatrixMultiply.c" location "MatrixMultiply" found 1 funcFound 1 applied 1 ambiguous 0 reason "null" variable "bb"}
+lappend pragmaStatus3 {pragma "ARRAY_PARTITION" source "C:/Users/YL/Desktop/MatrixMultiply/MatrixMultiply.c" location "MatrixMultiply" found 1 funcFound 1 applied 1 ambiguous 0 reason "null" variable "cc"}

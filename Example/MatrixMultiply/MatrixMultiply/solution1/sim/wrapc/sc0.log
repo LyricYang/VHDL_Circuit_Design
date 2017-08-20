@@ -1,0 +1,38 @@
+   Build using "C:/Xilinx/Vivado_HLS/2017.1/msys/bin/g++.exe"
+   Compiling apatb_MatrixMultiply.cpp
+   Compiling (apcc) MatrixMultiply.c_pre.c.tb.c
+INFO: [HLS 200-10] Running 'c:/Xilinx/Vivado_HLS/2017.1/bin/unwrapped/win64.o/apcc.exe'
+INFO: [HLS 200-10] For user 'YL' on host 'antec-wuxiangu' (Windows NT_amd64 version 6.2) on Sun Aug 20 10:24:33 +0800 2017
+INFO: [HLS 200-10] In directory 'C:/Users/YL/Desktop/MatrixMultiply/MatrixMultiply/solution1/sim/wrapc'
+clang: warning: argument unused during compilation: '-fno-builtin-isinf'
+clang: warning: argument unused during compilation: '-fno-builtin-isnan'
+INFO: [APCC 202-3] Tmp directory is apcc_db
+INFO: [APCC 202-1] APCC is done.
+   Compiling (apcc) TestMatrixMutiply.c_pre.c.tb.c
+INFO: [HLS 200-10] Running 'c:/Xilinx/Vivado_HLS/2017.1/bin/unwrapped/win64.o/apcc.exe'
+INFO: [HLS 200-10] For user 'YL' on host 'antec-wuxiangu' (Windows NT_amd64 version 6.2) on Sun Aug 20 10:24:35 +0800 2017
+INFO: [HLS 200-10] In directory 'C:/Users/YL/Desktop/MatrixMultiply/MatrixMultiply/solution1/sim/wrapc'
+clang: warning: argument unused during compilation: '-fno-builtin-isinf'
+clang: warning: argument unused during compilation: '-fno-builtin-isnan'
+C:/Users/YL/Desktop/MatrixMultiply/TestMatrixMutiply.c:18:2: warning: passing 'const data_type [25]' to parameter of type 'int *' discards qualifiers [-Wincompatible-pointer-types]
+(MatrixA,Vector_b,HLS_Result_c);
+ ^~~~~~~
+./apatb_MatrixMultiply.h:8:5: note: passing argument to parameter 'AA' here
+int AA[25],
+    ^
+C:/Users/YL/Desktop/MatrixMultiply/TestMatrixMutiply.c:18:10: warning: passing 'const data_type [5]' to parameter of type 'int *' discards qualifiers [-Wincompatible-pointer-types]
+(MatrixA,Vector_b,HLS_Result_c);
+         ^~~~~~~~
+./apatb_MatrixMultiply.h:9:5: note: passing argument to parameter 'bb' here
+int bb[5],
+    ^
+C:/Users/YL/Desktop/MatrixMultiply/TestMatrixMutiply.c:19:14: warning: passing 'const data_type [5]' to parameter of type 'data_type *' (aka 'int *') discards qualifiers [-Wincompatible-pointer-types]
+ CheckResult(MatlabResult_c,HLS_Result_c);
+             ^~~~~~~~~~~~~~
+C:/Users/YL/Desktop/MatrixMultiply/TestMatrixMutiply.c:14:30: note: passing argument to parameter 'matlab_result' here
+void CheckResult(data_type * matlab_result,data_type * your_result);
+                             ^
+3 warnings generated.
+INFO: [APCC 202-3] Tmp directory is apcc_db
+INFO: [APCC 202-1] APCC is done.
+   Generating cosim.tv.exe

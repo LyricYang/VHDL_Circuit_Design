@@ -1,0 +1,8 @@
+vhdl xil_defaultlib "AESL_sim_pkg.vhd"
+vhdl xil_defaultlib "AESL_automem_AA.vhd"
+vhdl xil_defaultlib "AESL_automem_bb.vhd"
+vhdl xil_defaultlib "AESL_automem_cc.vhd"
+vhdl xil_defaultlib "MatrixMultiply.autotb.vhd"
+vhdl xil_defaultlib "MatrixMultiply.vhd"
+vhdl xil_defaultlib "MatrixMultiply_mubkb.vhd"
+

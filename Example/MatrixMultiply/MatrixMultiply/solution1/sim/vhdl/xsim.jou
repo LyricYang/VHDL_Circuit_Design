@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# xsim v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Sun Aug 20 10:24:44 2017
+# Process ID: 10200
+# Current directory: C:/Users/YL/Desktop/MatrixMultiply/MatrixMultiply/solution1/sim/vhdl
+# Command line: xsim.exe -mode tcl -source {xsim.dir/MatrixMultiply/xsim_script.tcl}
+# Log file: C:/Users/YL/Desktop/MatrixMultiply/MatrixMultiply/solution1/sim/vhdl/xsim.log
+# Journal file: C:/Users/YL/Desktop/MatrixMultiply/MatrixMultiply/solution1/sim/vhdl\xsim.jou
+#-----------------------------------------------------------
+source xsim.dir/MatrixMultiply/xsim_script.tcl
+source MatrixMultiply.tcl

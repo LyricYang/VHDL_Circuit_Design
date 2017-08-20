@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Webtalk v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Sun Aug 20 10:24:47 2017
+# Process ID: 8876
+# Current directory: C:/Users/YL/Desktop/MatrixMultiply/MatrixMultiply/solution1/sim/vhdl
+# Command line: wbtcv.exe -mode batch -source C:/Users/YL/Desktop/MatrixMultiply/MatrixMultiply/solution1/sim/vhdl/xsim.dir/MatrixMultiply/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/YL/Desktop/MatrixMultiply/MatrixMultiply/solution1/sim/vhdl/webtalk.log
+# Journal file: C:/Users/YL/Desktop/MatrixMultiply/MatrixMultiply/solution1/sim/vhdl\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/YL/Desktop/MatrixMultiply/MatrixMultiply/solution1/sim/vhdl/xsim.dir/MatrixMultiply/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sun Aug 20 10:24:48 2017...
