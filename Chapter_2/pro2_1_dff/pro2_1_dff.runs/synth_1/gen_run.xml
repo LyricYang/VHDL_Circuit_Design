@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="synth_1" LaunchPart="xc7vx690tffg1157-3" LaunchTime="1490947559">
   <File Type="RDS-UTIL" Name="dff_utilization_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="dff_timing_summary_synth.pb"/>
   <File Type="RUN-STRAT" Name="$PDATADIR/runs/synth_1/synth_1.psg"/>
+  <File Type="VDS-TIMING-PB" Name="dff_timing_summary_synth.pb"/>
   <File Type="RDS-UTIL-PB" Name="dff_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="dff.dcp"/>
   <File Type="VDS-TIMINGSUMMARY" Name="dff_timing_summary_synth.rpt"/>
-  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/synth_1/constrs_in.xml"/>
   <File Type="PA-TCL" Name="dff.tcl"/>
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/synth_1/constrs_in.xml"/>
   <File Type="RUN-SRCS" Name="$PDATADIR/runs/synth_1/sources.xml"/>
   <File Type="RDS-RDS" Name="dff.rds"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
@@ -31,9 +31,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2013">
-      <Desc>Vivado Synthesis Defaults</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2013"/>
     <Step Id="synth_design"/>
   </Strategy>
 </GenRun>
