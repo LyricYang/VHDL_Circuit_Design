@@ -1,0 +1,50 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Wed Aug 23 09:12:13 2017
+# Process ID: 7204
+# Current directory: C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.runs/base_mb_ilmb_bram_if_cntlr_0_synth_1
+# Command line: vivado.exe -log base_mb_ilmb_bram_if_cntlr_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source base_mb_ilmb_bram_if_cntlr_0.tcl
+# Log file: C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.runs/base_mb_ilmb_bram_if_cntlr_0_synth_1/base_mb_ilmb_bram_if_cntlr_0.vds
+# Journal file: C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.runs/base_mb_ilmb_bram_if_cntlr_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source base_mb_ilmb_bram_if_cntlr_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:25 . Memory (MB): peak = 345.195 ; gain = 135.063
+INFO: [Synth 8-638] synthesizing module 'base_mb_ilmb_bram_if_cntlr_0' [c:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.srcs/sources_1/bd/base_mb/ip/base_mb_ilmb_bram_if_cntlr_0/synth/base_mb_ilmb_bram_if_cntlr_0.vhd:84]
+INFO: [Synth 8-638] synthesizing module 'lmb_bram_if_cntlr' [c:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.srcs/sources_1/bd/base_mb/ipshared/f4d9/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:3106]
+INFO: [Synth 8-638] synthesizing module 'lmb_mux' [c:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.srcs/sources_1/bd/base_mb/ipshared/f4d9/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:2601]
+INFO: [Synth 8-638] synthesizing module 'pselect_mask' [c:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.srcs/sources_1/bd/base_mb/ipshared/f4d9/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:2121]
+INFO: [Synth 8-256] done synthesizing module 'pselect_mask' (1#1) [c:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.srcs/sources_1/bd/base_mb/ipshared/f4d9/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:2121]
+INFO: [Synth 8-256] done synthesizing module 'lmb_mux' (2#1) [c:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.srcs/sources_1/bd/base_mb/ipshared/f4d9/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:2601]
+INFO: [Synth 8-256] done synthesizing module 'lmb_bram_if_cntlr' (3#1) [c:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.srcs/sources_1/bd/base_mb/ipshared/f4d9/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:3106]
+INFO: [Synth 8-256] done synthesizing module 'base_mb_ilmb_bram_if_cntlr_0' (4#1) [c:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.srcs/sources_1/bd/base_mb/ip/base_mb_ilmb_bram_if_cntlr_0/synth/base_mb_ilmb_bram_if_cntlr_0.vhd:84]
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:27 . Memory (MB): peak = 382.660 ; gain = 172.527
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:27 . Memory (MB): peak = 382.660 ; gain = 172.527
+INFO: [Device 21-403] Loading part xc7vx485tffg1761-2
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.044 . Memory (MB): peak = 799.965 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:00:26 ; elapsed = 00:00:49 . Memory (MB): peak = 799.965 ; gain = 589.832
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:26 ; elapsed = 00:00:49 . Memory (MB): peak = 799.965 ; gain = 589.832
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:49 . Memory (MB): peak = 799.965 ; gain = 589.832
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:26 ; elapsed = 00:00:49 . Memory (MB): peak = 799.965 ; gain = 589.832
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:49 . Memory (MB): peak = 799.965 ; gain = 589.832
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:35 ; elapsed = 00:00:58 . Memory (MB): peak = 799.965 ; gain = 589.832
+Finished Timing Optimization : Time (s): cpu = 00:00:35 ; elapsed = 00:00:58 . Memory (MB): peak = 799.965 ; gain = 589.832
+Finished Technology Mapping : Time (s): cpu = 00:00:35 ; elapsed = 00:00:58 . Memory (MB): peak = 799.965 ; gain = 589.832
+Finished IO Insertion : Time (s): cpu = 00:00:36 ; elapsed = 00:00:59 . Memory (MB): peak = 799.965 ; gain = 589.832
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:36 ; elapsed = 00:00:59 . Memory (MB): peak = 799.965 ; gain = 589.832
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:36 ; elapsed = 00:00:59 . Memory (MB): peak = 799.965 ; gain = 589.832
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:36 ; elapsed = 00:00:59 . Memory (MB): peak = 799.965 ; gain = 589.832
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:36 ; elapsed = 00:00:59 . Memory (MB): peak = 799.965 ; gain = 589.832
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:36 ; elapsed = 00:00:59 . Memory (MB): peak = 799.965 ; gain = 589.832
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     1|
+|2     |LUT2 |     6|
+|3     |FDRE |     2|
++------+-----+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:36 ; elapsed = 00:00:59 . Memory (MB): peak = 799.965 ; gain = 589.832
+synth_design: Time (s): cpu = 00:00:34 ; elapsed = 00:00:44 . Memory (MB): peak = 812.703 ; gain = 550.992

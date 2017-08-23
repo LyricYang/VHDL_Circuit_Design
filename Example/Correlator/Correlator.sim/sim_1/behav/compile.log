@@ -1,0 +1,18 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Correlator/Correlator.srcs/sources_1/new/dff_logic.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity dff_logic
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Correlator/Correlator.srcs/sources_1/new/shirt_register_8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity shift_register_8
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Correlator/Correlator.srcs/sources_1/new/shirt_register_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity shift_register_4
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Correlator/Correlator.srcs/sources_1/new/shift_register_32.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity shift_register_32
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Correlator/Correlator.srcs/sources_1/new/shift_register_2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity shift_register_2
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Correlator/Correlator.srcs/sources_1/new/shift_register_16.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity shift_register_16
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Correlator/Correlator.srcs/sources_1/new/shift_register_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity shift_register_1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Correlator/Correlator.srcs/sources_1/new/Correlator_64.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Correlator_64
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/Correlator/Correlator.srcs/sim_1/new/Correlator_64_test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Correlator_64_test

@@ -1,0 +1,89 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Wed Aug 23 09:17:19 2017
+# Process ID: 5512
+# Current directory: C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.runs/base_mb_axi_uartlite_0_0_synth_1
+# Command line: vivado.exe -log base_mb_axi_uartlite_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source base_mb_axi_uartlite_0_0.tcl
+# Log file: C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.runs/base_mb_axi_uartlite_0_0_synth_1/base_mb_axi_uartlite_0_0.vds
+# Journal file: C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.runs/base_mb_axi_uartlite_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source base_mb_axi_uartlite_0_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 354.824 ; gain = 144.875
+INFO: [Synth 8-638] synthesizing module 'base_mb_axi_uartlite_0_0' [c:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.srcs/sources_1/bd/base_mb/ip/base_mb_axi_uartlite_0_0/synth/base_mb_axi_uartlite_0_0.vhd:86]
+INFO: [Synth 8-638] synthesizing module 'axi_uartlite' [c:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.srcs/sources_1/bd/base_mb/ipshared/2479/hdl/axi_uartlite_v2_0_vh_rfs.vhd:2160]
+INFO: [Synth 8-638] synthesizing module 'uartlite_core' [c:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.srcs/sources_1/bd/base_mb/ipshared/2479/hdl/axi_uartlite_v2_0_vh_rfs.vhd:1615]
+INFO: [Synth 8-638] synthesizing module 'baudrate' [c:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.srcs/sources_1/bd/base_mb/ipshared/2479/hdl/axi_uartlite_v2_0_vh_rfs.vhd:1418]
+INFO: [Synth 8-256] done synthesizing module 'baudrate' (1#1) [c:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.srcs/sources_1/bd/base_mb/ipshared/2479/hdl/axi_uartlite_v2_0_vh_rfs.vhd:1418]
+INFO: [Synth 8-638] synthesizing module 'uartlite_rx' [c:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.srcs/sources_1/bd/base_mb/ipshared/2479/hdl/axi_uartlite_v2_0_vh_rfs.vhd:909]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync' [c:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.srcs/sources_1/bd/base_mb/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync' (2#1) [c:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.srcs/sources_1/bd/base_mb/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_i_f' [c:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.srcs/sources_1/bd/base_mb/ipshared/2479/hdl/axi_uartlite_v2_0_vh_rfs.vhd:168]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_i_f' (3#1) [c:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.srcs/sources_1/bd/base_mb/ipshared/2479/hdl/axi_uartlite_v2_0_vh_rfs.vhd:168]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_f' [c:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.srcs/sources_1/bd/base_mb/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f' [c:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.srcs/sources_1/bd/base_mb/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-638] synthesizing module 'cntr_incr_decr_addn_f' [c:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.srcs/sources_1/bd/base_mb/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:143]
+INFO: [Synth 8-256] done synthesizing module 'cntr_incr_decr_addn_f' (4#1) [c:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.srcs/sources_1/bd/base_mb/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:143]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_f' [c:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.srcs/sources_1/bd/base_mb/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f' (5#1) [c:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.srcs/sources_1/bd/base_mb/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f' (6#1) [c:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.srcs/sources_1/bd/base_mb/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f' (7#1) [c:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.srcs/sources_1/bd/base_mb/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-256] done synthesizing module 'uartlite_rx' (8#1) [c:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.srcs/sources_1/bd/base_mb/ipshared/2479/hdl/axi_uartlite_v2_0_vh_rfs.vhd:909]
+INFO: [Synth 8-638] synthesizing module 'uartlite_tx' [c:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.srcs/sources_1/bd/base_mb/ipshared/2479/hdl/axi_uartlite_v2_0_vh_rfs.vhd:408]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_i_f__parameterized0' [c:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.srcs/sources_1/bd/base_mb/ipshared/2479/hdl/axi_uartlite_v2_0_vh_rfs.vhd:168]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_i_f__parameterized0' (8#1) [c:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.srcs/sources_1/bd/base_mb/ipshared/2479/hdl/axi_uartlite_v2_0_vh_rfs.vhd:168]
+INFO: [Synth 8-256] done synthesizing module 'uartlite_tx' (9#1) [c:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.srcs/sources_1/bd/base_mb/ipshared/2479/hdl/axi_uartlite_v2_0_vh_rfs.vhd:408]
+INFO: [Synth 8-256] done synthesizing module 'uartlite_core' (10#1) [c:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.srcs/sources_1/bd/base_mb/ipshared/2479/hdl/axi_uartlite_v2_0_vh_rfs.vhd:1615]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif' [c:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.srcs/sources_1/bd/base_mb/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-638] synthesizing module 'slave_attachment' [c:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.srcs/sources_1/bd/base_mb/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-638] synthesizing module 'address_decoder' [c:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.srcs/sources_1/bd/base_mb/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-638] synthesizing module 'pselect_f' [c:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.srcs/sources_1/bd/base_mb/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f' (11#1) [c:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.srcs/sources_1/bd/base_mb/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized0' [c:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.srcs/sources_1/bd/base_mb/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized0' (11#1) [c:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.srcs/sources_1/bd/base_mb/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized1' [c:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.srcs/sources_1/bd/base_mb/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized1' (11#1) [c:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.srcs/sources_1/bd/base_mb/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized2' [c:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.srcs/sources_1/bd/base_mb/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized2' (11#1) [c:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.srcs/sources_1/bd/base_mb/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'address_decoder' (12#1) [c:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.srcs/sources_1/bd/base_mb/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-256] done synthesizing module 'slave_attachment' (13#1) [c:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.srcs/sources_1/bd/base_mb/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif' (14#1) [c:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.srcs/sources_1/bd/base_mb/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-256] done synthesizing module 'axi_uartlite' (15#1) [c:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.srcs/sources_1/bd/base_mb/ipshared/2479/hdl/axi_uartlite_v2_0_vh_rfs.vhd:2160]
+INFO: [Synth 8-256] done synthesizing module 'base_mb_axi_uartlite_0_0' (16#1) [c:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.srcs/sources_1/bd/base_mb/ip/base_mb_axi_uartlite_0_0/synth/base_mb_axi_uartlite_0_0.vhd:86]
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 392.996 ; gain = 183.047
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 392.996 ; gain = 183.047
+INFO: [Device 21-403] Loading part xc7vx485tffg1761-2
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.024 . Memory (MB): peak = 835.863 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:00:26 ; elapsed = 00:00:29 . Memory (MB): peak = 835.863 ; gain = 625.914
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:26 ; elapsed = 00:00:29 . Memory (MB): peak = 835.863 ; gain = 625.914
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:29 . Memory (MB): peak = 835.863 ; gain = 625.914
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:27 ; elapsed = 00:00:30 . Memory (MB): peak = 835.863 ; gain = 625.914
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 835.863 ; gain = 625.914
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:36 ; elapsed = 00:00:40 . Memory (MB): peak = 835.863 ; gain = 625.914
+Finished Timing Optimization : Time (s): cpu = 00:00:37 ; elapsed = 00:00:40 . Memory (MB): peak = 835.863 ; gain = 625.914
+Finished Technology Mapping : Time (s): cpu = 00:00:37 ; elapsed = 00:00:40 . Memory (MB): peak = 835.863 ; gain = 625.914
+Finished IO Insertion : Time (s): cpu = 00:00:37 ; elapsed = 00:00:41 . Memory (MB): peak = 835.863 ; gain = 625.914
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:37 ; elapsed = 00:00:41 . Memory (MB): peak = 835.863 ; gain = 625.914
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:37 ; elapsed = 00:00:41 . Memory (MB): peak = 835.863 ; gain = 625.914
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:37 ; elapsed = 00:00:41 . Memory (MB): peak = 835.863 ; gain = 625.914
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:37 ; elapsed = 00:00:41 . Memory (MB): peak = 835.863 ; gain = 625.914
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:37 ; elapsed = 00:00:41 . Memory (MB): peak = 835.863 ; gain = 625.914
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |LUT1   |     2|
+|2     |LUT2   |     9|
+|3     |LUT3   |    22|
+|4     |LUT4   |    13|
+|5     |LUT5   |    43|
+|6     |LUT6   |    17|
+|7     |SRL16E |    18|
+|8     |FDR    |     4|
+|9     |FDRE   |    70|
+|10    |FDSE   |    16|
++------+-------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:37 ; elapsed = 00:00:41 . Memory (MB): peak = 835.863 ; gain = 625.914
+synth_design: Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 835.863 ; gain = 571.016

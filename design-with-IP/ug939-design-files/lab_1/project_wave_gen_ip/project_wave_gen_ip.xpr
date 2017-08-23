@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Product Version: Vivado v2017.1 (64-bit)              -->
+<!--                                                         -->
+<!-- Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.   -->
+
+<Project Version="7" Minor="20" Path="C:/Tutorials/ug939-design-files/lab_1/project_wave_gen_ip/project_wave_gen_ip.xpr">
+  <DefaultLaunch Dir="$PRUNDIR"/>
+  <Configuration>
+    <Option Name="Id" Val="d17c1ad6eea34853b7145e0599814b81"/>
+    <Option Name="Part" Val="xc7k70tfbg676-1"/>
+    <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
+    <Option Name="CompiledLibDirXSim" Val="$PPRDIR/../../../../Xilinx/Vivado/2016.1/data/xsim"/>
+    <Option Name="CompiledLibDirModelSim" Val="$PCACHEDIR/compile_simlib/modelsim"/>
+    <Option Name="CompiledLibDirQuesta" Val="$PCACHEDIR/compile_simlib/questa"/>
+    <Option Name="CompiledLibDirIES" Val="$PCACHEDIR/compile_simlib/ies"/>
+    <Option Name="CompiledLibDirVCS" Val="$PCACHEDIR/compile_simlib/vcs"/>
+    <Option Name="CompiledLibDirRiviera" Val="$PCACHEDIR/compile_simlib/riviera"/>
+    <Option Name="CompiledLibDirActivehdl" Val="$PCACHEDIR/compile_simlib/activehdl"/>
+    <Option Name="BoardPart" Val=""/>
+    <Option Name="ActiveSimSet" Val="sim_1"/>
+    <Option Name="DefaultLib" Val="xil_defaultlib"/>
+    <Option Name="IPCachePermission" Val="disable"/>
+    <Option Name="EnableCoreContainer" Val="FALSE"/>
+    <Option Name="XPMLibraries" Val="XPM_CDC"/>
+    <Option Name="CreateRefXciForCoreContainers" Val="FALSE"/>
+    <Option Name="IPUserFilesDir" Val="$PIPUSERFILESDIR"/>
+    <Option Name="IPStaticSourceDir" Val="$PIPUSERFILESDIR/ipstatic"/>
+    <Option Name="EnableBDX" Val="FALSE"/>
+    <Option Name="DSANumComputeUnits" Val="16"/>
+    <Option Name="WTXSimLaunchSim" Val="0"/>
+    <Option Name="WTModelSimLaunchSim" Val="0"/>
+    <Option Name="WTQuestaLaunchSim" Val="0"/>
+    <Option Name="WTIesLaunchSim" Val="0"/>
+    <Option Name="WTVcsLaunchSim" Val="0"/>
+    <Option Name="WTRivieraLaunchSim" Val="0"/>
+    <Option Name="WTActivehdlLaunchSim" Val="0"/>
+    <Option Name="WTXSimExportSim" Val="2"/>
+    <Option Name="WTModelSimExportSim" Val="2"/>
+    <Option Name="WTQuestaExportSim" Val="2"/>
+    <Option Name="WTIesExportSim" Val="2"/>
+    <Option Name="WTVcsExportSim" Val="2"/>
+    <Option Name="WTRivieraExportSim" Val="2"/>
+    <Option Name="WTActivehdlExportSim" Val="2"/>
+    <Option Name="GenerateIPUpgradeLog" Val="TRUE"/>
+    <Option Name="XSimRadix" Val="hex"/>
+    <Option Name="XSimTimeUnit" Val="ns"/>
+    <Option Name="XSimArrayDisplayLimit" Val="64"/>
+    <Option Name="XSimTraceLimit" Val="65536"/>
+  </Configuration>
+  <FileSets Version="1" Minor="31">
+    <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+      <Filter Type="Srcs"/>
+      <File Path="$PSRCDIR/sources_1/ip/clk_core/clk_core.xci">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/verilog/clk_div.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../project_wave_gen_ip/project_wave_gen_hdl/project_wave_gen_hdl.srcs/sources_1/imports/verilog/clk_div.v"/>
+          <Attr Name="ImportTime" Val="1387407122"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/verilog/clk_gen.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../project_wave_gen_ip/project_wave_gen_hdl/project_wave_gen_hdl.srcs/sources_1/imports/verilog/clk_gen.v"/>
+          <Attr Name="ImportTime" Val="1387407122"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/clogb2.vh">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../project_wave_gen_ip/project_wave_gen_hdl/project_wave_gen_hdl.srcs/sources_1/new/clogb2.vh"/>
+          <Attr Name="ImportTime" Val="1387407124"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/verilog/clkx_bus.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../project_wave_gen_ip/project_wave_gen_hdl/project_wave_gen_hdl.srcs/sources_1/imports/verilog/clkx_bus.v"/>
+          <Attr Name="ImportTime" Val="1387407122"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/verilog/cmd_parse.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../project_wave_gen_ip/project_wave_gen_hdl/project_wave_gen_hdl.srcs/sources_1/imports/verilog/cmd_parse.v"/>
+          <Attr Name="ImportTime" Val="1387407122"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/verilog/dac_spi.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../project_wave_gen_ip/project_wave_gen_hdl/project_wave_gen_hdl.srcs/sources_1/imports/verilog/dac_spi.v"/>
+          <Attr Name="ImportTime" Val="1387407122"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/verilog/debouncer.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../project_wave_gen_ip/project_wave_gen_hdl/project_wave_gen_hdl.srcs/sources_1/imports/verilog/debouncer.v"/>
+          <Attr Name="ImportTime" Val="1387407122"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/verilog/lb_ctl.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../project_wave_gen_ip/project_wave_gen_hdl/project_wave_gen_hdl.srcs/sources_1/imports/verilog/lb_ctl.v"/>
+          <Attr Name="ImportTime" Val="1387407122"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/verilog/meta_harden.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../project_wave_gen_ip/project_wave_gen_hdl/project_wave_gen_hdl.srcs/sources_1/imports/verilog/meta_harden.v"/>
+          <Attr Name="ImportTime" Val="1387407122"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/verilog/out_ddr_flop.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../project_wave_gen_ip/project_wave_gen_hdl/project_wave_gen_hdl.srcs/sources_1/imports/verilog/out_ddr_flop.v"/>
+          <Attr Name="ImportTime" Val="1387407122"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/verilog/reset_bridge.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../project_wave_gen_ip/project_wave_gen_hdl/project_wave_gen_hdl.srcs/sources_1/imports/verilog/reset_bridge.v"/>
+          <Attr Name="ImportTime" Val="1387407122"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/verilog/resp_gen.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../project_wave_gen_ip/project_wave_gen_hdl/project_wave_gen_hdl.srcs/sources_1/imports/verilog/resp_gen.v"/>
+          <Attr Name="ImportTime" Val="1387407122"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/verilog/rst_gen.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../project_wave_gen_ip/project_wave_gen_hdl/project_wave_gen_hdl.srcs/sources_1/imports/verilog/rst_gen.v"/>
+          <Attr Name="ImportTime" Val="1387407122"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/verilog/samp_gen.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../project_wave_gen_ip/project_wave_gen_hdl/project_wave_gen_hdl.srcs/sources_1/imports/verilog/samp_gen.v"/>
+          <Attr Name="ImportTime" Val="1387407122"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/verilog/samp_ram.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../project_wave_gen_ip/project_wave_gen_hdl/project_wave_gen_hdl.srcs/sources_1/imports/verilog/samp_ram.v"/>
+          <Attr Name="ImportTime" Val="1387407122"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/verilog/to_bcd.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../project_wave_gen_ip/project_wave_gen_hdl/project_wave_gen_hdl.srcs/sources_1/imports/verilog/to_bcd.v"/>
+          <Attr Name="ImportTime" Val="1387407122"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/verilog/uart_baud_gen.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../project_wave_gen_ip/project_wave_gen_hdl/project_wave_gen_hdl.srcs/sources_1/imports/verilog/uart_baud_gen.v"/>
+          <Attr Name="ImportTime" Val="1387407122"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/verilog/uart_rx.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../project_wave_gen_ip/project_wave_gen_hdl/project_wave_gen_hdl.srcs/sources_1/imports/verilog/uart_rx.v"/>
+          <Attr Name="ImportTime" Val="1387407122"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/verilog/uart_rx_ctl.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../project_wave_gen_ip/project_wave_gen_hdl/project_wave_gen_hdl.srcs/sources_1/imports/verilog/uart_rx_ctl.v"/>
+          <Attr Name="ImportTime" Val="1387407122"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/verilog/uart_tx.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../project_wave_gen_ip/project_wave_gen_hdl/project_wave_gen_hdl.srcs/sources_1/imports/verilog/uart_tx.v"/>
+          <Attr Name="ImportTime" Val="1387407122"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/verilog/uart_tx_ctl.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../project_wave_gen_ip/project_wave_gen_hdl/project_wave_gen_hdl.srcs/sources_1/imports/verilog/uart_tx_ctl.v"/>
+          <Attr Name="ImportTime" Val="1387407122"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/verilog/wave_gen.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../project_wave_gen_ip/project_wave_gen_hdl/project_wave_gen_hdl.srcs/sources_1/imports/verilog/wave_gen.v"/>
+          <Attr Name="ImportTime" Val="1387407122"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopModule" Val="wave_gen"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+      <Filter Type="Constrs"/>
+      <File Path="$PSRCDIR/constrs_1/imports/verilog/wave_gen_timing.xdc">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../project_wave_gen_ip/project_wave_gen_hdl/project_wave_gen_hdl.srcs/constrs_1/imports/verilog/wave_gen_timing.xdc"/>
+          <Attr Name="ImportTime" Val="1387407124"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/constrs_1/imports/verilog/wave_gen_pins.xdc">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../project_wave_gen_ip/project_wave_gen_hdl/project_wave_gen_hdl.srcs/constrs_1/imports/verilog/wave_gen_pins.xdc"/>
+          <Attr Name="ImportTime" Val="1387407124"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/imports/verilog/wave_gen_timing.xdc"/>
+        <Option Name="ConstrsType" Val="XDC"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1">
+      <Filter Type="Srcs"/>
+      <File Path="$PSRCDIR/sim_1/imports/verilog/tb_cmd_gen.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../project_wave_gen_ip/project_wave_gen_hdl/project_wave_gen_hdl.srcs/sim_1/imports/verilog/tb_cmd_gen.v"/>
+          <Attr Name="ImportTime" Val="1387407124"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/verilog/tb_fifo.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../project_wave_gen_ip/project_wave_gen_hdl/project_wave_gen_hdl.srcs/sim_1/imports/verilog/tb_fifo.v"/>
+          <Attr Name="ImportTime" Val="1387407124"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/verilog/tb_ram.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../project_wave_gen_ip/project_wave_gen_hdl/project_wave_gen_hdl.srcs/sim_1/imports/verilog/tb_ram.v"/>
+          <Attr Name="ImportTime" Val="1387407124"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/verilog/tb_resetgen.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../project_wave_gen_ip/project_wave_gen_hdl/project_wave_gen_hdl.srcs/sim_1/imports/verilog/tb_resetgen.v"/>
+          <Attr Name="ImportTime" Val="1387407124"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/verilog/tb_resp_checker.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../project_wave_gen_ip/project_wave_gen_hdl/project_wave_gen_hdl.srcs/sim_1/imports/verilog/tb_resp_checker.v"/>
+          <Attr Name="ImportTime" Val="1387407124"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/verilog/tb_uart_driver.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../project_wave_gen_ip/project_wave_gen_hdl/project_wave_gen_hdl.srcs/sim_1/imports/verilog/tb_uart_driver.v"/>
+          <Attr Name="ImportTime" Val="1387407124"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/verilog/tb_uart_monitor.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../project_wave_gen_ip/project_wave_gen_hdl/project_wave_gen_hdl.srcs/sim_1/imports/verilog/tb_uart_monitor.v"/>
+          <Attr Name="ImportTime" Val="1387407124"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/verilog/tb_wave_gen.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../project_wave_gen_ip/project_wave_gen_hdl/project_wave_gen_hdl.srcs/sim_1/imports/verilog/tb_wave_gen.v"/>
+          <Attr Name="ImportTime" Val="1387407124"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopModule" Val="tb_wave_gen"/>
+        <Option Name="TopRTLFile" Val="$PPRDIR/../../../../../../../proj/rdi/public/packages/2013.1/latest/internal/vivado/2012.4/test_2012.4/wave_gen/project_wave_gen/project_wave_gen.srcs/sim_1/imports/verilog/test_wave_gen.v"/>
+        <Option Name="TransportPathDelay" Val="0"/>
+        <Option Name="TransportIntDelay" Val="0"/>
+        <Option Name="SrcSet" Val="sources_1"/>
+      </Config>
+    </FileSet>
+  </FileSets>
+  <Simulators>
+    <Simulator Name="XSim">
+      <Option Name="Description" Val="Vivado Simulator"/>
+      <Option Name="CompiledLib" Val="0"/>
+    </Simulator>
+    <Simulator Name="ModelSim">
+      <Option Name="Description" Val="ModelSim Simulator"/>
+    </Simulator>
+    <Simulator Name="Questa">
+      <Option Name="Description" Val="Questa Advanced Simulator"/>
+    </Simulator>
+    <Simulator Name="Riviera">
+      <Option Name="Description" Val="Riviera-PRO Simulator"/>
+    </Simulator>
+    <Simulator Name="ActiveHDL">
+      <Option Name="Description" Val="Active-HDL Simulator"/>
+    </Simulator>
+  </Simulators>
+  <Runs Version="1" Minor="10">
+    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7k70tfbg676-1" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" State="current" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <ReportStrategy/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7k70tfbg676-1" ConstrsSet="constrs_1" Description="Default settings for Implementation." State="current" SynthRun="synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017">
+          <Desc>Default settings for Implementation.</Desc>
+        </StratHandle>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+  </Runs>
+</Project>

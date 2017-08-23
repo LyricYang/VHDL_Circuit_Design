@@ -1,0 +1,59 @@
+##############################################################
+#
+# Vivado 2013.1
+# Date: Mon Apr 15 13:42:26 2013
+
+#
+##############################################################
+#
+#  This file contains the customisation parameters for a
+#  Xilinx IP GUI. It is strongly recommended
+#  that you do not manually alter this file as it may cause
+#  unexpected and unsupported behavior.
+#
+##############################################################
+# BEGIN Project Options
+SET addpads=false
+SET asysymbol=true
+SET busformat=BusFormatAngleBracketNotRipped
+SET createndf=false
+SET designentry=Verilog
+SET device=xc7k70t
+SET devicefamily=kintex7
+SET flowvendor=Other
+SET formalverification=false
+SET foundationsym=false
+SET implementationfiletype=Ngc
+SET package=fbg484
+SET removerpms=false
+SET simulationfiles=Behavioral
+SET speedgrade=-3
+SET verilogsim=true
+SET vhdlsim=false
+# END Project Options
+# BEGIN Select
+SELECT Accumulator xilinx.com:ip:c_accum:11.0
+# END Select
+# BEGIN Parameters
+CSET accum_mode=Add
+CSET ainit_value=0
+CSET bypass=false
+CSET bypass_sense=Active_High
+CSET c_in=false
+CSET ce=true
+CSET component_name=Accumulator
+CSET implementation=Fabric
+CSET input_type=Unsigned
+CSET input_width=16
+CSET latency=3
+CSET latency_configuration=Automatic
+CSET output_width=32
+CSET scale=0
+CSET sclr=true
+CSET sinit=false
+CSET sinit_value=0
+CSET sset=false
+CSET sync_ce_priority=Sync_Overrides_CE
+CSET syncctrlpriority=Reset_Overrides_Set
+# END Parameters
+GENERATE

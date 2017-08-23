@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="base_mb_clk_wiz_1_0_synth_1" LaunchDir="C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.runs/base_mb_clk_wiz_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="base_mb_mdm_1_0_synth_1" LaunchDir="C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.runs/base_mb_mdm_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="base_mb_lmb_bram_0_synth_1" LaunchDir="C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.runs/base_mb_lmb_bram_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="base_mb_ilmb_bram_if_cntlr_0_synth_1" LaunchDir="C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.runs/base_mb_ilmb_bram_if_cntlr_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="base_mb_dlmb_bram_if_cntlr_0_synth_1" LaunchDir="C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.runs/base_mb_dlmb_bram_if_cntlr_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="base_mb_ilmb_v10_0_synth_1" LaunchDir="C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.runs/base_mb_ilmb_v10_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="base_mb_dlmb_v10_0_synth_1" LaunchDir="C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.runs/base_mb_dlmb_v10_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="base_mb_microblaze_0_0_synth_1" LaunchDir="C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.runs/base_mb_microblaze_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="base_mb_rst_clk_wiz_1_100M_0_synth_1" LaunchDir="C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.runs/base_mb_rst_clk_wiz_1_100M_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="base_mb_xbar_0_synth_1" LaunchDir="C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.runs/base_mb_xbar_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="base_mb_axi_gpio_0_0_synth_1" LaunchDir="C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.runs/base_mb_axi_gpio_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="base_mb_axi_uartlite_0_0_synth_1" LaunchDir="C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.runs/base_mb_axi_uartlite_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Example/MicroBlaze/project_1/project_1.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="base_mb_clk_wiz_1_0_synth_1"/>
+		<Parent Id="base_mb_mdm_1_0_synth_1"/>
+		<Parent Id="base_mb_lmb_bram_0_synth_1"/>
+		<Parent Id="base_mb_ilmb_bram_if_cntlr_0_synth_1"/>
+		<Parent Id="base_mb_dlmb_bram_if_cntlr_0_synth_1"/>
+		<Parent Id="base_mb_ilmb_v10_0_synth_1"/>
+		<Parent Id="base_mb_dlmb_v10_0_synth_1"/>
+		<Parent Id="base_mb_microblaze_0_0_synth_1"/>
+		<Parent Id="base_mb_rst_clk_wiz_1_100M_0_synth_1"/>
+		<Parent Id="base_mb_xbar_0_synth_1"/>
+		<Parent Id="base_mb_axi_gpio_0_0_synth_1"/>
+		<Parent Id="base_mb_axi_uartlite_0_0_synth_1"/>
+	</Run>
+</Runs>
+

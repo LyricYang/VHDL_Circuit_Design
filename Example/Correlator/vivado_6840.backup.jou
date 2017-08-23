@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2013.3
+# SW Build 329390 on Wed Oct 16 18:35:21 MDT 2013
+# IP Build 192953 on Wed Oct 16 08:44:02 MDT 2013
+# Start of session at: Wed Apr 12 21:32:40 2017
+# Process ID: 6840
+# Log file: H:/新建文件夹/科研工作/程序/VHDL/Correlator/vivado.log
+# Journal file: H:/新建文件夹/科研工作/程序/VHDL/Correlator\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {H:\新建文件夹\科研工作\程序\VHDL\Correlator\Correlator.xpr}
+update_compile_order -fileset sim_1
