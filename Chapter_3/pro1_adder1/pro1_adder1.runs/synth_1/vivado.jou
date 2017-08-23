@@ -1,10 +1,12 @@
 #-----------------------------------------------------------
-# Vivado v2013.3
-# SW Build 329390 on Wed Oct 16 18:35:21 MDT 2013
-# IP Build 192953 on Wed Oct 16 08:44:02 MDT 2013
-# Start of session at: Sat Apr 01 15:25:36 2017
-# Process ID: 11200
-# Log file: C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Chapter_3/pro1_adder1/pro1_adder1.runs/synth_1/adder2.rds
-# Journal file: C:/Users/Administrator/Desktop/VHDL_Circuit_Design-master/Chapter_3/pro1_adder1/pro1_adder1.runs/synth_1\vivado.jou
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Wed Aug 23 13:58:15 2017
+# Process ID: 9728
+# Current directory: C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Chapter_3/pro1_adder1/pro1_adder1.runs/synth_1
+# Command line: vivado.exe -log adder2.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source adder2.tcl
+# Log file: C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Chapter_3/pro1_adder1/pro1_adder1.runs/synth_1/adder2.vds
+# Journal file: C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Chapter_3/pro1_adder1/pro1_adder1.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
-source adder2.tcl
+source adder2.tcl -notrace

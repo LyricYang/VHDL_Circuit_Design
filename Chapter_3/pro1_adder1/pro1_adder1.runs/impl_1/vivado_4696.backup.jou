@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Wed Aug 23 13:50:53 2017
+# Process ID: 4696
+# Current directory: C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Chapter_3/pro1_adder1/pro1_adder1.runs/impl_1
+# Command line: vivado.exe -log adder2.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source adder2.tcl -notrace
+# Log file: C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Chapter_3/pro1_adder1/pro1_adder1.runs/impl_1/adder2.vdi
+# Journal file: C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Chapter_3/pro1_adder1/pro1_adder1.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source adder2.tcl -notrace

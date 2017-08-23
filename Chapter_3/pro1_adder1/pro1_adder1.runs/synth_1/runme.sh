@@ -3,7 +3,7 @@
 # 
 # Vivado(TM)
 # runme.sh: a Vivado-generated Runs Script for UNIX
-# Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+# Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 # 
 
 echo "This script was generated under a different operating system."
@@ -11,9 +11,9 @@ echo "Please update the PATH and LD_LIBRARY_PATH variables below, before executi
 exit
 
 if [ -z "$PATH" ]; then
-  PATH=D:/vivado/SDK/2013.3/bin/nt;D:/vivado/Vivado/2013.3/ids_lite/EDK/bin/nt;D:/vivado/Vivado/2013.3/ids_lite/EDK/lib/nt;D:/vivado/Vivado/2013.3/ids_lite/ISE/bin/nt;D:/vivado/Vivado/2013.3/ids_lite/ISE/lib/nt:D:/vivado/Vivado/2013.3/bin
+  PATH=E:/ProgramFiles/vivado/SDK/2016.4/bin;E:/ProgramFiles/vivado/Vivado/2016.4/ids_lite/ISE/bin/nt64;E:/ProgramFiles/vivado/Vivado/2016.4/ids_lite/ISE/lib/nt64:E:/ProgramFiles/vivado/Vivado/2016.4/bin
 else
-  PATH=D:/vivado/SDK/2013.3/bin/nt;D:/vivado/Vivado/2013.3/ids_lite/EDK/bin/nt;D:/vivado/Vivado/2013.3/ids_lite/EDK/lib/nt;D:/vivado/Vivado/2013.3/ids_lite/ISE/bin/nt;D:/vivado/Vivado/2013.3/ids_lite/ISE/lib/nt:D:/vivado/Vivado/2013.3/bin:$PATH
+  PATH=E:/ProgramFiles/vivado/SDK/2016.4/bin;E:/ProgramFiles/vivado/Vivado/2016.4/ids_lite/ISE/bin/nt64;E:/ProgramFiles/vivado/Vivado/2016.4/ids_lite/ISE/lib/nt64:E:/ProgramFiles/vivado/Vivado/2016.4/bin:$PATH
 fi
 export PATH
 
@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD=`dirname "$0"`
+HD_PWD='C:/Users/Administrator/Desktop/VHDL_Circuit_Design/Chapter_3/pro1_adder1/pro1_adder1.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -40,4 +40,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log adder2.rds -m32 -mode batch -messageDb vivado.pb -source adder2.tcl
+EAStep vivado -log adder2.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source adder2.tcl
