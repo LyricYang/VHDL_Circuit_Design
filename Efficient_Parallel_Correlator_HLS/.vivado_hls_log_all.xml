@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Efficient_Parallel_Correlator_HLS" solutionName="solution1" date="2017-08-29T19:51:22.621+0800"/>
+        <logs message="ERROR: [HLS 200-101] Message ID '1-1' value invalid for uint argument.&#xD;&#xA;&#xD;&#xA;FORMAT&#xD;&#xA;  ap_puts_err [OPTIONS] [ Message namespace] [ Message ID] [ Message string]&#xD;&#xA;      &lt;string>&#xD;&#xA;      &lt;uint>&#xD;&#xA;      &lt;string>&#xD;&#xA;&#xD;&#xA;g++.exe: error: obj/Efficient_Parallel_Correlator.o: No such file or directory&#xD;&#xA;make: *** [csim.exe] Error 1" projectName="Efficient_Parallel_Correlator_HLS" solutionName="solution1" date="2017-08-29T19:51:22.621+0800"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Efficient_Parallel_Correlator_HLS" solutionName="solution1" date="2017-08-29T19:50:19.476+0800"/>
+        <logs message="ERROR: [HLS 200-101] Message ID '1-1' value invalid for uint argument.&#xD;&#xA;&#xD;&#xA;FORMAT&#xD;&#xA;  ap_puts_err [OPTIONS] [ Message namespace] [ Message ID] [ Message string]&#xD;&#xA;      &lt;string>&#xD;&#xA;      &lt;uint>&#xD;&#xA;      &lt;string>&#xD;&#xA;&#xD;&#xA;g++.exe: error: obj/Efficient_Parallel_Correlator.o: No such file or directory&#xD;&#xA;make: *** [csim.exe] Error 1" projectName="Efficient_Parallel_Correlator_HLS" solutionName="solution1" date="2017-08-29T19:50:19.476+0800"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Efficient_Parallel_Correlator_HLS" solutionName="solution1" date="2017-08-29T19:13:42.348+0800"/>
+        <logs message="ERROR: [HLS 200-101] Message ID '1-1' value invalid for uint argument.&#xD;&#xA;&#xD;&#xA;FORMAT&#xD;&#xA;  ap_puts_err [OPTIONS] [ Message namespace] [ Message ID] [ Message string]&#xD;&#xA;      &lt;string>&#xD;&#xA;      &lt;uint>&#xD;&#xA;      &lt;string>&#xD;&#xA;&#xD;&#xA;g++.exe: error: obj/Efficient_Parallel_Correlator.o: No such file or directory&#xD;&#xA;make: *** [csim.exe] Error 1" projectName="Efficient_Parallel_Correlator_HLS" solutionName="solution1" date="2017-08-29T19:13:42.348+0800"/>
+      </csimLog>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [RTGEN 206-101] RTL name 'Efficient_Cor_fsubkb' is changed to 'Efficient_Cor_fsubkb_x' due to conflict." projectName="Efficient_Parallel_Correlator_HLS" solutionName="solution1" date="2017-08-29T16:06:00.274+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'dff_2D_1' is power-on initialization." projectName="Efficient_Parallel_Correlator_HLS" solutionName="solution1" date="2017-08-29T16:06:00.242+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'dff_2D_0' is power-on initialization." projectName="Efficient_Parallel_Correlator_HLS" solutionName="solution1" date="2017-08-29T16:06:00.242+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'dff_1D' is power-on initialization." projectName="Efficient_Parallel_Correlator_HLS" solutionName="solution1" date="2017-08-29T16:06:00.227+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] RTL name 'Efficient_Cor_fsubkb' is changed to 'Efficient_Cor_fsubkb_x' due to conflict." projectName="Efficient_Parallel_Correlator_HLS" solutionName="solution1" date="2017-08-29T16:06:00.086+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] RTL name 'Efficient_Cor_fsubkb' is changed to 'Efficient_Cor_fsubkb_x' due to conflict." projectName="Efficient_Parallel_Correlator_HLS" solutionName="solution1" date="2017-08-29T16:05:59.742+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'dff_4D_3' is power-on initialization." projectName="Efficient_Parallel_Correlator_HLS" solutionName="solution1" date="2017-08-29T16:05:59.742+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'dff_4D_2' is power-on initialization." projectName="Efficient_Parallel_Correlator_HLS" solutionName="solution1" date="2017-08-29T16:05:59.742+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'dff_4D_1' is power-on initialization." projectName="Efficient_Parallel_Correlator_HLS" solutionName="solution1" date="2017-08-29T16:05:59.727+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'dff_4D_0' is power-on initialization." projectName="Efficient_Parallel_Correlator_HLS" solutionName="solution1" date="2017-08-29T16:05:59.727+0800" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog>
+        <logs message="WARNING: [SIM 211-51] HLS only supports CLANG compiler in Linux." projectName="Efficient_Parallel_Correlator_HLS" solutionName="solution1" date="2017-08-29T20:54:42.174+0800" type="Warning"/>
+        <logs message="WARNING: [SIM 211-51] HLS only supports CLANG compiler in Linux." projectName="Efficient_Parallel_Correlator_HLS" solutionName="solution1" date="2017-08-29T20:08:57.022+0800" type="Warning"/>
+        <logs message="WARNING: [SIM 211-51] HLS only supports CLANG compiler in Linux." projectName="Efficient_Parallel_Correlator_HLS" solutionName="solution1" date="2017-08-29T19:53:08.773+0800" type="Warning"/>
+        <logs message="WARNING: [SIM 211-51] HLS only supports CLANG compiler in Linux." projectName="Efficient_Parallel_Correlator_HLS" solutionName="solution1" date="2017-08-29T19:51:49.629+0800" type="Warning"/>
+        <logs message="WARNING: [SIM 211-51] HLS only supports CLANG compiler in Linux." projectName="Efficient_Parallel_Correlator_HLS" solutionName="solution1" date="2017-08-29T19:51:20.827+0800" type="Warning"/>
+        <logs message="WARNING: [SIM 211-51] HLS only supports CLANG compiler in Linux." projectName="Efficient_Parallel_Correlator_HLS" solutionName="solution1" date="2017-08-29T19:50:17.339+0800" type="Warning"/>
+        <logs message="WARNING: [SIM 211-51] HLS only supports CLANG compiler in Linux." projectName="Efficient_Parallel_Correlator_HLS" solutionName="solution1" date="2017-08-29T19:24:12.316+0800" type="Warning"/>
+        <logs message="WARNING: [SIM 211-51] HLS only supports CLANG compiler in Linux." projectName="Efficient_Parallel_Correlator_HLS" solutionName="solution1" date="2017-08-29T19:16:15.237+0800" type="Warning"/>
+        <logs message="WARNING: [SIM 211-51] HLS only supports CLANG compiler in Linux." projectName="Efficient_Parallel_Correlator_HLS" solutionName="solution1" date="2017-08-29T19:13:40.556+0800" type="Warning"/>
+        <logs message="WARNING: [SIM 211-51] HLS only supports CLANG compiler in Linux." projectName="Efficient_Parallel_Correlator_HLS" solutionName="solution1" date="2017-08-29T19:09:09.022+0800" type="Warning"/>
+        <logs message="WARNING: [SIM 211-51] HLS only supports CLANG compiler in Linux." projectName="Efficient_Parallel_Correlator_HLS" solutionName="solution1" date="2017-08-29T18:26:12.105+0800" type="Warning"/>
+        <logs message="WARNING: [SIM 211-51] HLS only supports CLANG compiler in Linux." projectName="Efficient_Parallel_Correlator_HLS" solutionName="solution1" date="2017-08-29T17:13:35.655+0800" type="Warning"/>
+        <logs message="WARNING: [SIM 211-51] HLS only supports CLANG compiler in Linux." projectName="Efficient_Parallel_Correlator_HLS" solutionName="solution1" date="2017-08-29T16:49:16.917+0800" type="Warning"/>
+        <logs message="WARNING: [SIM 211-51] HLS only supports CLANG compiler in Linux." projectName="Efficient_Parallel_Correlator_HLS" solutionName="solution1" date="2017-08-29T16:39:30.545+0800" type="Warning"/>
+        <logs message="WARNING: [SIM 211-51] HLS only supports CLANG compiler in Linux." projectName="Efficient_Parallel_Correlator_HLS" solutionName="solution1" date="2017-08-29T16:30:59.465+0800" type="Warning"/>
+        <logs message="WARNING: [SIM 211-51] HLS only supports CLANG compiler in Linux." projectName="Efficient_Parallel_Correlator_HLS" solutionName="solution1" date="2017-08-29T16:17:06.071+0800" type="Warning"/>
+        <logs message="WARNING: [SIM 211-51] HLS only supports CLANG compiler in Linux." projectName="Efficient_Parallel_Correlator_HLS" solutionName="solution1" date="2017-08-29T16:12:37.746+0800" type="Warning"/>
+      </csimLog>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>
